@@ -22,6 +22,7 @@ package DIMEX
 import (
 	PP2PLink "SD/PP2PLink"
 	"fmt"
+	"strconv"
 	"strings"
 )
 
@@ -138,7 +139,7 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 	module.nbrResps = 0
 	for index, endereco := range module.addresses {
 		if(index != module.id){
-			module.sendToLink(endereco, "reqEntry " + module.id + " " + module.reqTs, " ")
+			module.sendToLink(endereco, "reqEntry " + strconv.Itoa(module.id) + " " + strconv.Itoa(module.reqTs), " ")
 		}
 	}
 	module.st = wantMX
@@ -146,7 +147,7 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 
 func (module *DIMEX_Module) handleUponReqExit() {
 	for index, esperando := range module.waiting{
-		if(esperando == true){
+		if(esperando){
 			module.sendToLink(module.addresses[index], "respOk", " ")
 		}
 	}
@@ -163,7 +164,7 @@ func (module *DIMEX_Module) handleUponReqExit() {
 func (module *DIMEX_Module) handleUponDeliverRespOk(msgOutro PP2PLink.PP2PLink_Ind_Message) {
 	module.nbrResps = module.nbrResps + 1
 	if(module.nbrResps == len(module.addresses) - 1){
-		module.Ind <- ENTER
+		module.Ind <- dmxResp{}
 }
 /*
 upon event [ pl, Deliver | p, [ respOk, r ] ]
