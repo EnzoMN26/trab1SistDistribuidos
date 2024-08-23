@@ -183,11 +183,19 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 		        				 (estado == QueroSC AND  myTs >  ts)
 							então  trigger [ pl, Send | p , [ respOk, r ]  ]
 		 					senão
-		        				se (estado == estouNaSC) OR
-		           					 (estado == QueroSC AND  myTs < ts)
 		        				então  postergados := postergados + [p, r ]
 		     					lts.ts := max(lts.ts, rts.ts)
 	*/
+	reqIdReqTs := strings.Split(msgOutro.Message, " ")
+	// req := reqIdReqTs[0]
+	id, _ := strconv.Atoi(reqIdReqTs[1]) 
+	reqTs, _ := strconv.Atoi(reqIdReqTs[2]) 
+	if (module.st == noMX) || (module.st == wantMX && !before(module.id, module.reqTs, id, reqTs)) {
+		module.sendToLink(module.addresses[id], "respOk", " ")
+	} else {
+		module.waiting[id] = true;
+		module.lcl = max(module.lcl, reqTs)
+	}
 }
 
 // ------------------------------------------------------------------------------------
@@ -215,4 +223,11 @@ func (module *DIMEX_Module) outDbg(s string) {
 	if module.dbg {
 		fmt.Println(". . . . . . . . . . . . [ DIMEX : " + s + " ]")
 	}
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
