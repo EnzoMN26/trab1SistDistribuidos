@@ -83,7 +83,7 @@ func (module *PP2PLink) Start(address string) {
 						module.outDbg("erro : " + err.Error() + " conexao fechada pelo outro processo.")
 						break
 					}
-					tam, err := strconv.Atoi(string(bufTam))
+					tam, _ := strconv.Atoi(string(bufTam))
 					bufMsg := make([]byte, tam)        // declara buffer do tamanho exato
 					_, err = io.ReadFull(conn, bufMsg) // le do tamanho do buffer ou da erro
 					if err != nil {

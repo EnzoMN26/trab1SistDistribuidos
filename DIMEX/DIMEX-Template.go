@@ -113,7 +113,7 @@ func (module *DIMEX_Module) Start() {
 
 			case msgOutro := <-module.Pp2plink.Ind: // vindo de outro processo
 				//fmt.Printf("dimex recebe da rede: ", msgOutro)
-				if strings.Contains(msgOutro.Message, "respOK") {
+				if strings.Contains(msgOutro.Message, "respOk") {
 					module.outDbg("         <<<---- responde! " + msgOutro.Message)
 					module.handleUponDeliverRespOk(msgOutro) // ENTRADA DO ALGORITMO
 
@@ -165,7 +165,8 @@ func (module *DIMEX_Module) handleUponDeliverRespOk(msgOutro PP2PLink.PP2PLink_I
 	module.nbrResps = module.nbrResps + 1
 	if(module.nbrResps == len(module.addresses) - 1){
 		module.Ind <- dmxResp{}
-}
+		module.st = inMX
+	}
 /*
 upon event [ pl, Deliver | p, [ respOk, r ] ]
 resps++
@@ -187,14 +188,14 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 		     					lts.ts := max(lts.ts, rts.ts)
 	*/
 	reqIdReqTs := strings.Split(msgOutro.Message, " ")
-	// req := reqIdReqTs[0]
-	id, _ := strconv.Atoi(reqIdReqTs[1]) 
-	reqTs, _ := strconv.Atoi(reqIdReqTs[2]) 
-	if (module.st == noMX) || (module.st == wantMX && !before(module.id, module.reqTs, id, reqTs)) {
-		module.sendToLink(module.addresses[id], "respOk", " ")
+	othId, _ := strconv.Atoi(reqIdReqTs[1]) 
+	othReqTs, _ := strconv.Atoi(reqIdReqTs[2]) 
+
+	if (module.st == noMX) || (module.st == wantMX && before(othId, othReqTs, module.id, module.reqTs)) {
+		module.sendToLink(module.addresses[othId], "respOk", " ")
 	} else {
-		module.waiting[id] = true;
-		module.lcl = max(module.lcl, reqTs)
+		module.waiting[othId] = true;
+		module.lcl = max(module.lcl, othReqTs)
 	}
 }
 
