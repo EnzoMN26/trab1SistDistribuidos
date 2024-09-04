@@ -40,9 +40,9 @@ func main() {
 
 	if len(os.Args) < 2 {
 		fmt.Println("Please specify at least one address:port!")
-		fmt.Println("go run usaDIMEX-f.go 0 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
-		fmt.Println("go run usaDIMEX-f.go 1 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
-		fmt.Println("go run usaDIMEX-f.go 2 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
+		fmt.Println("go run useDimex-f/useDIMEX-f.go 0 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
+		fmt.Println("go run run useDimex-f/useDIMEX-f.go 1 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
+		fmt.Println("go run run useDimex-f/useDIMEX-f.go 2 127.0.0.1:5000  127.0.0.1:6001  127.0.0.1:7002 ")
 		return
 	}
 
@@ -66,30 +66,36 @@ func main() {
 	time.Sleep(3 * time.Second)
 
 	for {
-		// SOLICITA ACESSO AO DIMEX
-		fmt.Println("[ APP id: ", id, " PEDE   MX ]")
-		dmx.Req <- DIMEX.ENTER
-		//fmt.Println("[ APP id: ", id, " ESPERA MX ]")
-		// ESPERA LIBERACAO DO MODULO DIMEX
-		<-dmx.Ind //
+		if id == 0 {
+			fmt.Println("[ APP id: ", id, " PEDE SNAPSHOT ]")
+			dmx.Req <- DIMEX.SNAPSHOT
+			time.Sleep(3 * time.Second)
+		} else {	
+			// SOLICITA ACESSO AO DIMEX
+			fmt.Println("[ APP id: ", id, " PEDE   MX ]")
+			dmx.Req <- DIMEX.ENTER
+			//fmt.Println("[ APP id: ", id, " ESPERA MX ]")
+			// ESPERA LIBERACAO DO MODULO DIMEX
+			<-dmx.Ind //
 
-		// A PARTIR DAQUI ESTA ACESSANDO O ARQUIVO SOZINHO
-		_, err = file.WriteString("|") // marca entrada no arquivo
-		if err != nil {
-			fmt.Println("Error writing to file:", err)
-			return
+			// A PARTIR DAQUI ESTA ACESSANDO O ARQUIVO SOZINHO
+			_, err = file.WriteString("|") // marca entrada no arquivo
+			if err != nil {
+				fmt.Println("Error writing to file:", err)
+				return
+			}
+
+			fmt.Println("[ APP id: ", id, " *EM*   MX ]")
+
+			_, err = file.WriteString(".") // marca saida no arquivo
+			if err != nil {
+				fmt.Println("Error writing to file:", err)
+				return
+			}
+
+			// AGORA VAI LIBERAR O ARQUIVO PARA OUTROS
+			dmx.Req <- DIMEX.EXIT //
+			fmt.Println("[ APP id: ", id, " FORA   MX ]")
 		}
-
-		fmt.Println("[ APP id: ", id, " *EM*   MX ]")
-
-		_, err = file.WriteString(".") // marca saida no arquivo
-		if err != nil {
-			fmt.Println("Error writing to file:", err)
-			return
-		}
-
-		// AGORA VAI LIBERAR O ARQUIVO PARA OUTROS
-		dmx.Req <- DIMEX.EXIT //
-		fmt.Println("[ APP id: ", id, " FORA   MX ]")
 	}
 }
