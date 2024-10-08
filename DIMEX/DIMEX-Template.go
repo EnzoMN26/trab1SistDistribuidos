@@ -164,8 +164,8 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 	module.reqTs = module.lcl
 	module.nbrResps = 0
 	for index, endereco := range module.addresses {
-		if(index != module.id && index != 0){
-			module.sendToLink(endereco, "reqEntry " + strconv.Itoa(module.id) + " " + strconv.Itoa(module.reqTs), " ")
+		if(index != module.id){
+			module.sendToLink(endereco, strconv.Itoa(module.id) + " reqEntry " + strconv.Itoa(module.reqTs), " ")
 		}
 	}
 	module.st = wantMX
@@ -174,7 +174,7 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 func (module *DIMEX_Module) handleUponReqExit() {
 	for index, esperando := range module.waiting{
 		if(esperando){
-			module.sendToLink(module.addresses[index], "respOk", " ")
+			module.sendToLink(module.addresses[index], strconv.Itoa(module.id) + " respOk", " ")
 		}
 	}
 	module.st = noMX
@@ -189,7 +189,7 @@ func (module *DIMEX_Module) handleUponReqExit() {
 
 func (module *DIMEX_Module) handleUponDeliverRespOk(){
 	module.nbrResps = module.nbrResps + 1
-	if(module.nbrResps == len(module.addresses) - 2){
+	if(module.nbrResps == len(module.addresses) - 1){
 		module.Ind <- dmxResp{}
 		module.st = inMX
 	}
@@ -214,11 +214,11 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 		     					lts.ts := max(lts.ts, rts.ts)
 	*/
 	reqIdReqTs := strings.Split(msgOutro.Message, " ")
-	othId, _ := strconv.Atoi(reqIdReqTs[1]) 
+	othId, _ := strconv.Atoi(reqIdReqTs[0]) 
 	othReqTs, _ := strconv.Atoi(reqIdReqTs[2]) 
 
 	if (module.st == noMX) || (module.st == wantMX && before(othId, othReqTs, module.id, module.reqTs)) {
-		module.sendToLink(module.addresses[othId], "respOk", " ")
+		module.sendToLink(module.addresses[othId], strconv.Itoa(module.id) + " respOk", " ")
 	} else {
 		module.waiting[othId] = true;
 	}
@@ -260,7 +260,7 @@ func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message)
 		module.recordLocalState(idFrom, idSnapshot)
 		for index := range module.addresses{
 			if index != module.id {
-				module.sendToLink(module.addresses[index], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(idSnapshot), " ")
+				module.sendToLink(module.addresses[index], strconv.Itoa(module.id) + " take snapshot "+ strconv.Itoa(idSnapshot), " ")
 			}
 		}
 	} else {
