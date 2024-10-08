@@ -38,13 +38,6 @@ const (
 	inMX
 )
 
-type SnapshotState int // enumeracao dos estados possiveis de um processo
-const (
-	notReceived State = iota
-	received
-	receivedTwice
-)
-
 type dmxReq int // enumeracao dos estados possiveis de um processo
 const (
 	ENTER dmxReq = iota
@@ -67,8 +60,11 @@ type DIMEX_Module struct {
 	reqTs     int          // timestamp local da ultima requisicao deste processo
 	nbrResps  int
 	dbg       bool
-	snapState SnapshotState
 	snapshotCount int
+	currentSnapshot int
+	channels  []bool
+	messageChannel map[int]string
+	idByIp 		map[string]int
 
 	Pp2plink *PP2PLink.PP2PLink // acesso aa comunicacao enviar por PP2PLinq.Req  e receber por PP2PLinq.Ind
 }
@@ -92,9 +88,20 @@ func NewDIMEX(_addresses []string, _id int, _dbg bool) *DIMEX_Module {
 		lcl:       0,
 		reqTs:     0,
 		dbg:       _dbg,
-		snapState: SnapshotState(notReceived),
-		snapshotCount: 0,
+		snapshotCount: 1,
+		currentSnapshot:  0,
+		channels: make([]bool, len(_addresses)),
+		messageChannel: make(map[int]string),
+		idByIp: make(map[string]int),
 		Pp2plink: p2p}
+
+	for index := range dmx.channels {
+		dmx.channels[index] = false
+	}
+
+	for index := range _addresses {
+		dmx.idByIp[_addresses[index]] = index
+	}
 
 	for i := 0; i < len(dmx.waiting); i++ {
 		dmx.waiting[i] = false
@@ -128,16 +135,17 @@ func (module *DIMEX_Module) Start() {
 
 			case msgOutro := <-module.Pp2plink.Ind: // vindo de outro processo
 				//fmt.Printf("dimex recebe da rede: ", msgOutro)
+				module.saveMessageInChannel(msgOutro)
 				if strings.Contains(msgOutro.Message, "respOk") {
 					module.outDbg("         <<<---- responde! " + msgOutro.Message)
-					module.handleUponDeliverRespOk(msgOutro) // ENTRADA DO ALGORITMO
+					module.handleUponDeliverRespOk() // ENTRADA DO ALGORITMO
 
 				} else if strings.Contains(msgOutro.Message, "reqEntry") {
 					module.outDbg("          <<<---- pede??  " + msgOutro.Message)
 					module.handleUponDeliverReqEntry(msgOutro) // ENTRADA DO ALGORITMO
 
 				} else if strings.Contains(msgOutro.Message, "take snapshot"){
-					module.outDbg("snapshot pedido" + msgOutro.Message)
+					module.outDbg("snapshot pedido " + msgOutro.Message)
 					module.replySnapshot(msgOutro);
 				}
 			}
@@ -156,7 +164,7 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 	module.reqTs = module.lcl
 	module.nbrResps = 0
 	for index, endereco := range module.addresses {
-		if(index != module.id){
+		if(index != module.id && index != 0){
 			module.sendToLink(endereco, "reqEntry " + strconv.Itoa(module.id) + " " + strconv.Itoa(module.reqTs), " ")
 		}
 	}
@@ -179,9 +187,9 @@ func (module *DIMEX_Module) handleUponReqExit() {
 // ------- UPON reqEntry
 // ------------------------------------------------------------------------------------
 
-func (module *DIMEX_Module) handleUponDeliverRespOk(msgOutro PP2PLink.PP2PLink_Ind_Message) {
+func (module *DIMEX_Module) handleUponDeliverRespOk(){
 	module.nbrResps = module.nbrResps + 1
-	if(module.nbrResps == len(module.addresses) - 1){
+	if(module.nbrResps == len(module.addresses) - 2){
 		module.Ind <- dmxResp{}
 		module.st = inMX
 	}
@@ -218,39 +226,51 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 }
 
 func(module *DIMEX_Module) createSnapshot(){
-	if(module.id == 0){
-		for index := range module.addresses{
-			module.snapshotCount++
-			module.sendToLink(module.addresses[index], "take snapshot "+ strconv.Itoa(module.snapshotCount), " ")
+	//somente id 0
+	for index := range module.addresses{
+		if index != 0{
+			module.sendToLink(module.addresses[index], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(module.snapshotCount), " ")
 		}
 	}
+	module.channels[module.id] = true
+	module.snapshotCount = module.snapshotCount+1;
 }
 
 func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message){
-	if(module.snapState == SnapshotState(notReceived)){
-		//estado = st,waiting,lcl,reqTs
-		//grava estado local
-		//envia mensagem "take snapshot" em OUT
-		//estado entre do canal entre o receptor e o remetente é setado vazio
-		//receptor inicia a gravação de mensagens recebida de cada um de seus outros canais em IN.
-		module.snapState = SnapshotState(received)
-		// abre arquivo que TODOS processos devem poder usar
-		file, err := os.OpenFile("./p"+ strconv.Itoa(module.id) +".txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-		if err != nil {
-			fmt.Println("Error opening file:", err)
-			return
+	idSnapshot,_ := strconv.Atoi(strings.Split(msgOutro.Message, " ")[3])
+	idFrom,_ := strconv.Atoi(strings.Split(msgOutro.Message, " ")[0])
+	if idSnapshot == module.currentSnapshot && module.currentSnapshot != 0 {
+		module.channels[idFrom] = true
+		module.recordChannel(idFrom)
+		count := 0
+		for index := range module.channels{
+			if !module.channels[index] {
+				break;
+			}
+			count++
 		}
-	defer file.Close() // Ensure the file is closed at the end of the function
+		channelIstrue := (count == len(module.channels));
+		if channelIstrue{
+			module.channels = make([]bool, len(module.addresses))
+			module.currentSnapshot = 0
+		}
+	} else if module.currentSnapshot == 0 {
+		module.currentSnapshot = idSnapshot
+		module.channels[module.id] = true
+		module.recordLocalState(idFrom, idSnapshot)
+		for index := range module.addresses{
+			if index != module.id {
+				module.sendToLink(module.addresses[index], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(idSnapshot), " ")
+			}
+		}
+	} else {
+		module.sendToLink(module.addresses[idFrom], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(idSnapshot), " ")
+		module.channels[module.id] = true
 	}
-
-	if(module.snapState == SnapshotState(received)){
-		//para de gravar mensagens do processo que enviou
-		//declara o estado do canal entre receptor e o remetente sendo as mensagens gravadas
-		module.snapState = SnapshotState(receivedTwice)
-	}
-	if(module.snapState == SnapshotState(receivedTwice)){
-
-	}
+	//estado = st,waiting,lcl,reqTs, mensagens
+	//grava estado local
+	//estado do canal entre o receptor e o remetente é setado vazio
+	//envia mensagem "take snapshot" em OUT
 }
 
 // ------------------------------------------------------------------------------------
@@ -285,4 +305,64 @@ func max(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func (module *DIMEX_Module) recordChannel(idFrom int) {
+	fileName := "./p"+ strconv.Itoa(module.id) +".txt"
+	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Println("Error opening file:", err)
+		return
+	}
+	messageChannelStr := fmt.Sprintf("p%d -> p%d: ", idFrom, module.id)
+	_, err = file.WriteString(messageChannelStr)
+	if err != nil {
+        fmt.Println("Erro ao gravar no arquivo:", err)
+    }
+	messageChannelStr = fmt.Sprintf("%s\n", module.messageChannel[idFrom]) 
+	_, err = file.WriteString(messageChannelStr)
+    if err != nil {
+        fmt.Println("Erro ao gravar no arquivo:", err)
+    }
+	defer file.Close() // Ensure the file is closed at the end of the function
+	module.deleteMessagesInChannel()
+}
+
+func (module *DIMEX_Module) recordLocalState(idFrom int, idSnapshot int) {
+	fileName := "./p"+ strconv.Itoa(module.id) +".txt"
+	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+
+	if err != nil {
+		fmt.Println("Error opening file:", err)
+		return
+	}
+	localState := fmt.Sprintf("INICIO SNAPSHOT %d\n", idSnapshot)
+	localState += fmt.Sprintf("LocalState: p%d\n", module.id)
+    localState += fmt.Sprintf("st: %v\n", module.st)
+    localState += fmt.Sprintf("waiting: %v\n", module.waiting)
+    localState += fmt.Sprintf("lcl: %v\n", module.lcl)
+    localState += fmt.Sprintf("p%d -> p%d: ", idFrom, module.id)
+	localState += fmt.Sprintf("%s\n", module.messageChannel[idFrom]) 
+
+	_, err = file.WriteString(localState)
+    if err != nil {
+        fmt.Println("Erro ao gravar no arquivo:", err)
+    }
+	defer file.Close() // Ensure the file is closed at the end of the function
+	fmt.Println("Estado local gravado com sucesso no arquivo:", fileName)
+	module.deleteMessagesInChannel()
+}
+
+func (module *DIMEX_Module) saveMessageInChannel(msgOutro PP2PLink.PP2PLink_Ind_Message) {
+	idFrom := module.idByIp[msgOutro.From]
+	value, exists := module.messageChannel[idFrom]
+	if exists{
+		module.messageChannel[idFrom] = value + "\n" + msgOutro.Message
+	} else{
+		module.messageChannel[idFrom] = msgOutro.Message
+	}
+}
+
+func (module *DIMEX_Module) deleteMessagesInChannel(){
+	module.messageChannel = make(map[int]string)
 }

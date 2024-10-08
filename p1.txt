@@ -1,0 +1,17555 @@
+INICIO SNAPSHOT 1
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 1
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 1
+INICIO SNAPSHOT 2
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 2
+p0 -> p1: 0 take snapshot 2
+p2 -> p1: 
+INICIO SNAPSHOT 3
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 3
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 3
+INICIO SNAPSHOT 4
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 4
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 4
+INICIO SNAPSHOT 5
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 5
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 5
+INICIO SNAPSHOT 6
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 6
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 6
+INICIO SNAPSHOT 7
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 7
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 7
+INICIO SNAPSHOT 8
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 8
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 8
+INICIO SNAPSHOT 9
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 9
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 9
+INICIO SNAPSHOT 10
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 10
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 10
+INICIO SNAPSHOT 11
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 11
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 11
+INICIO SNAPSHOT 12
+LocalState: p1
+st: 0
+waiting: [false false false]
+lcl: 0
+p0 -> p1: 0 take snapshot 12
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 12
+INICIO SNAPSHOT 13
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 447
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 13
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 13
+INICIO SNAPSHOT 14
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 1531
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 14
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 14
+INICIO SNAPSHOT 15
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 2207
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 15
+p2 -> p1: 
+p0 -> p1: respOk
+0 take snapshot 15
+INICIO SNAPSHOT 16
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 3330
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 16
+p0 -> p1: 0 take snapshot 16
+p2 -> p1: 
+INICIO SNAPSHOT 17
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 4121
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 17
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 17
+INICIO SNAPSHOT 18
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 5282
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 18
+p0 -> p1: 0 take snapshot 18
+p2 -> p1: 
+INICIO SNAPSHOT 19
+LocalState: p1
+st: 2
+waiting: [false false false]
+lcl: 5995
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 19
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 19
+INICIO SNAPSHOT 20
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 6911
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 20
+p0 -> p1: 0 take snapshot 20
+p2 -> p1: 
+INICIO SNAPSHOT 21
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 7274
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 21
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 21
+INICIO SNAPSHOT 22
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 8241
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 22
+p2 -> p1: 
+p0 -> p1: respOk
+0 take snapshot 22
+INICIO SNAPSHOT 23
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 9333
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 23
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 23
+INICIO SNAPSHOT 24
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 10394
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 24
+p2 -> p1: 
+p0 -> p1: respOk
+0 take snapshot 24
+INICIO SNAPSHOT 25
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 11153
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 25
+p2 -> p1: 
+p0 -> p1: respOk
+0 take snapshot 25
+INICIO SNAPSHOT 26
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 12208
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+0 take snapshot 26
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 26
+INICIO SNAPSHOT 27
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 13403
+p0 -> p1: respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+respOk
+reqEntry 2 1
+respOk
+reqEntry 2 13047
+respOk
+reqEntry 2 13049
+respOk
+reqEntry 2 13051
+respOk
+reqEntry 2 13053
+respOk
+reqEntry 2 13055
+respOk
+reqEntry 2 13057
+respOk
+reqEntry 2 13059
+respOk
+reqEntry 2 13061
+respOk
+reqEntry 2 13063
+respOk
+reqEntry 2 13065
+respOk
+reqEntry 2 13067
+respOk
+reqEntry 2 13069
+respOk
+reqEntry 2 13071
+respOk
+reqEntry 2 13073
+respOk
+reqEntry 2 13075
+respOk
+reqEntry 2 13077
+respOk
+reqEntry 2 13079
+respOk
+reqEntry 2 13081
+respOk
+reqEntry 2 13083
+respOk
+reqEntry 2 13085
+respOk
+reqEntry 2 13087
+respOk
+reqEntry 2 13089
+respOk
+reqEntry 2 13091
+respOk
+reqEntry 2 13093
+respOk
+reqEntry 2 13095
+respOk
+reqEntry 2 13097
+respOk
+reqEntry 2 13099
+respOk
+respOk
+reqEntry 2 13101
+respOk
+reqEntry 2 13103
+respOk
+reqEntry 2 13105
+respOk
+reqEntry 2 13107
+respOk
+reqEntry 2 13109
+respOk
+respOk
+reqEntry 2 13111
+respOk
+reqEntry 2 13113
+respOk
+reqEntry 2 13115
+respOk
+reqEntry 2 13117
+respOk
+reqEntry 2 13119
+respOk
+reqEntry 2 13121
+respOk
+reqEntry 2 13123
+respOk
+reqEntry 2 13125
+respOk
+reqEntry 2 13127
+respOk
+reqEntry 2 13129
+respOk
+reqEntry 2 13131
+respOk
+reqEntry 2 13133
+respOk
+reqEntry 2 13135
+respOk
+reqEntry 2 13137
+respOk
+reqEntry 2 13139
+respOk
+reqEntry 2 13141
+respOk
+reqEntry 2 13143
+respOk
+reqEntry 2 13145
+respOk
+reqEntry 2 13147
+respOk
+reqEntry 2 13149
+respOk
+reqEntry 2 13151
+respOk
+reqEntry 2 13153
+respOk
+reqEntry 2 13155
+respOk
+reqEntry 2 13157
+reqEntry 2 13158
+respOk
+respOk
+reqEntry 2 13160
+respOk
+reqEntry 2 13162
+respOk
+reqEntry 2 13164
+reqEntry 2 13165
+respOk
+respOk
+reqEntry 2 13167
+respOk
+reqEntry 2 13169
+respOk
+reqEntry 2 13171
+respOk
+reqEntry 2 13173
+respOk
+respOk
+reqEntry 2 13175
+respOk
+reqEntry 2 13177
+respOk
+reqEntry 2 13179
+respOk
+reqEntry 2 13181
+respOk
+reqEntry 2 13182
+respOk
+reqEntry 2 13184
+respOk
+reqEntry 2 13186
+respOk
+reqEntry 2 13188
+respOk
+reqEntry 2 13190
+respOk
+reqEntry 2 13192
+respOk
+reqEntry 2 13194
+respOk
+respOk
+reqEntry 2 13196
+respOk
+reqEntry 2 13198
+respOk
+reqEntry 2 13200
+respOk
+reqEntry 2 13202
+respOk
+reqEntry 2 13204
+respOk
+reqEntry 2 13206
+reqEntry 2 13207
+respOk
+respOk
+reqEntry 2 13209
+respOk
+respOk
+reqEntry 2 13211
+respOk
+reqEntry 2 13213
+respOk
+reqEntry 2 13215
+respOk
+reqEntry 2 13217
+respOk
+reqEntry 2 13219
+respOk
+reqEntry 2 13221
+respOk
+reqEntry 2 13223
+respOk
+reqEntry 2 13225
+respOk
+reqEntry 2 13227
+respOk
+reqEntry 2 13229
+respOk
+reqEntry 2 13231
+respOk
+reqEntry 2 13233
+respOk
+respOk
+reqEntry 2 13235
+respOk
+reqEntry 2 13237
+respOk
+reqEntry 2 13239
+respOk
+reqEntry 2 13241
+respOk
+reqEntry 2 13243
+respOk
+reqEntry 2 13245
+respOk
+respOk
+reqEntry 2 13247
+respOk
+reqEntry 2 13249
+respOk
+reqEntry 2 13251
+respOk
+reqEntry 2 13253
+reqEntry 2 13254
+respOk
+respOk
+reqEntry 2 13256
+respOk
+reqEntry 2 13258
+respOk
+reqEntry 2 13260
+respOk
+reqEntry 2 13262
+respOk
+reqEntry 2 13264
+respOk
+reqEntry 2 13266
+respOk
+reqEntry 2 13268
+respOk
+reqEntry 2 13270
+respOk
+reqEntry 2 13272
+respOk
+reqEntry 2 13274
+respOk
+reqEntry 2 13276
+respOk
+reqEntry 2 13278
+respOk
+reqEntry 2 13280
+respOk
+reqEntry 2 13282
+respOk
+reqEntry 2 13284
+respOk
+reqEntry 2 13285
+respOk
+reqEntry 2 13287
+respOk
+reqEntry 2 13289
+respOk
+reqEntry 2 13291
+respOk
+reqEntry 2 13293
+respOk
+reqEntry 2 13295
+respOk
+reqEntry 2 13297
+respOk
+reqEntry 2 13299
+respOk
+reqEntry 2 13301
+respOk
+reqEntry 2 13303
+respOk
+respOk
+reqEntry 2 13305
+respOk
+reqEntry 2 13307
+respOk
+reqEntry 2 13309
+respOk
+reqEntry 2 13311
+respOk
+reqEntry 2 13313
+respOk
+reqEntry 2 13315
+respOk
+reqEntry 2 13317
+respOk
+reqEntry 2 13319
+respOk
+reqEntry 2 13321
+respOk
+reqEntry 2 13323
+respOk
+reqEntry 2 13325
+respOk
+reqEntry 2 13327
+respOk
+reqEntry 2 13329
+respOk
+reqEntry 2 13331
+respOk
+reqEntry 2 13333
+respOk
+reqEntry 2 13335
+respOk
+reqEntry 2 13337
+respOk
+reqEntry 2 13339
+respOk
+reqEntry 2 13341
+reqEntry 2 13342
+respOk
+respOk
+reqEntry 2 13344
+respOk
+reqEntry 2 13346
+respOk
+reqEntry 2 13348
+respOk
+reqEntry 2 13350
+respOk
+reqEntry 2 13352
+respOk
+reqEntry 2 13354
+respOk
+reqEntry 2 13356
+respOk
+reqEntry 2 13358
+respOk
+reqEntry 2 13360
+reqEntry 2 13361
+respOk
+respOk
+reqEntry 2 13363
+reqEntry 2 13364
+respOk
+respOk
+reqEntry 2 13366
+respOk
+reqEntry 2 13368
+respOk
+reqEntry 2 13370
+respOk
+reqEntry 2 13372
+respOk
+reqEntry 2 13374
+respOk
+reqEntry 2 13376
+respOk
+reqEntry 2 13378
+respOk
+reqEntry 2 13380
+respOk
+respOk
+reqEntry 2 13382
+respOk
+reqEntry 2 13384
+respOk
+reqEntry 2 13386
+respOk
+reqEntry 2 13388
+respOk
+reqEntry 2 13390
+respOk
+reqEntry 2 13392
+respOk
+reqEntry 2 13394
+respOk
+reqEntry 2 13396
+respOk
+respOk
+reqEntry 2 13398
+reqEntry 2 13399
+respOk
+respOk
+reqEntry 2 13401
+reqEntry 2 13402
+respOk
+0 take snapshot 27
+p2 -> p1: 
+p0 -> p1: respOk
+reqEntry 2 13404
+0 take snapshot 27
+INICIO SNAPSHOT 28
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 14432
+p0 -> p1: respOk
+reqEntry 2 13406
+respOk
+reqEntry 2 13408
+respOk
+reqEntry 2 13410
+reqEntry 2 13411
+respOk
+respOk
+reqEntry 2 13413
+respOk
+reqEntry 2 13415
+respOk
+reqEntry 2 13417
+respOk
+reqEntry 2 13419
+respOk
+reqEntry 2 13421
+respOk
+reqEntry 2 13423
+respOk
+reqEntry 2 13425
+respOk
+reqEntry 2 13427
+respOk
+reqEntry 2 13429
+respOk
+reqEntry 2 13431
+respOk
+reqEntry 2 13433
+reqEntry 2 13434
+respOk
+respOk
+reqEntry 2 13436
+reqEntry 2 13437
+respOk
+respOk
+reqEntry 2 13439
+respOk
+reqEntry 2 13441
+respOk
+respOk
+reqEntry 2 13443
+respOk
+reqEntry 2 13445
+respOk
+reqEntry 2 13447
+respOk
+reqEntry 2 13449
+respOk
+reqEntry 2 13451
+respOk
+reqEntry 2 13453
+respOk
+respOk
+reqEntry 2 13455
+respOk
+reqEntry 2 13457
+respOk
+reqEntry 2 13459
+respOk
+reqEntry 2 13461
+respOk
+respOk
+reqEntry 2 13463
+respOk
+respOk
+reqEntry 2 13465
+respOk
+reqEntry 2 13467
+respOk
+reqEntry 2 13469
+respOk
+reqEntry 2 13471
+respOk
+reqEntry 2 13473
+respOk
+reqEntry 2 13475
+reqEntry 2 13476
+respOk
+reqEntry 2 13477
+respOk
+respOk
+reqEntry 2 13479
+respOk
+reqEntry 2 13481
+respOk
+reqEntry 2 13483
+respOk
+reqEntry 2 13485
+respOk
+reqEntry 2 13487
+respOk
+reqEntry 2 13489
+respOk
+reqEntry 2 13491
+respOk
+reqEntry 2 13493
+respOk
+reqEntry 2 13495
+reqEntry 2 13496
+respOk
+respOk
+reqEntry 2 13498
+respOk
+reqEntry 2 13500
+respOk
+reqEntry 2 13502
+respOk
+reqEntry 2 13504
+respOk
+reqEntry 2 13506
+respOk
+reqEntry 2 13508
+reqEntry 2 13509
+respOk
+respOk
+reqEntry 2 13511
+respOk
+reqEntry 2 13513
+respOk
+reqEntry 2 13515
+respOk
+reqEntry 2 13517
+respOk
+reqEntry 2 13519
+respOk
+reqEntry 2 13521
+respOk
+reqEntry 2 13523
+respOk
+reqEntry 2 13525
+reqEntry 2 13526
+respOk
+respOk
+reqEntry 2 13528
+reqEntry 2 13529
+respOk
+respOk
+reqEntry 2 13531
+respOk
+reqEntry 2 13533
+respOk
+reqEntry 2 13535
+respOk
+reqEntry 2 13537
+respOk
+reqEntry 2 13539
+respOk
+reqEntry 2 13541
+respOk
+reqEntry 2 13543
+reqEntry 2 13544
+respOk
+respOk
+reqEntry 2 13546
+respOk
+reqEntry 2 13548
+respOk
+reqEntry 2 13550
+respOk
+reqEntry 2 13552
+respOk
+reqEntry 2 13554
+respOk
+reqEntry 2 13556
+respOk
+reqEntry 2 13558
+respOk
+respOk
+reqEntry 2 13560
+respOk
+reqEntry 2 13562
+respOk
+reqEntry 2 13564
+respOk
+reqEntry 2 13566
+respOk
+reqEntry 2 13568
+respOk
+respOk
+reqEntry 2 13570
+respOk
+reqEntry 2 13572
+respOk
+reqEntry 2 13574
+respOk
+reqEntry 2 13576
+respOk
+reqEntry 2 13578
+respOk
+reqEntry 2 13580
+respOk
+reqEntry 2 13582
+respOk
+reqEntry 2 13584
+respOk
+reqEntry 2 13586
+respOk
+reqEntry 2 13588
+respOk
+reqEntry 2 13590
+respOk
+reqEntry 2 13592
+respOk
+reqEntry 2 13594
+respOk
+reqEntry 2 13596
+respOk
+respOk
+reqEntry 2 13598
+respOk
+reqEntry 2 13600
+respOk
+reqEntry 2 13602
+reqEntry 2 13603
+respOk
+respOk
+reqEntry 2 13605
+respOk
+reqEntry 2 13607
+respOk
+reqEntry 2 13609
+respOk
+reqEntry 2 13611
+respOk
+reqEntry 2 13613
+respOk
+respOk
+reqEntry 2 13615
+respOk
+reqEntry 2 13617
+respOk
+reqEntry 2 13619
+respOk
+reqEntry 2 13621
+respOk
+reqEntry 2 13623
+respOk
+reqEntry 2 13625
+respOk
+reqEntry 2 13627
+respOk
+reqEntry 2 13629
+respOk
+reqEntry 2 13631
+respOk
+reqEntry 2 13633
+respOk
+reqEntry 2 13635
+respOk
+reqEntry 2 13637
+respOk
+reqEntry 2 13639
+respOk
+reqEntry 2 13641
+respOk
+reqEntry 2 13643
+respOk
+reqEntry 2 13645
+respOk
+reqEntry 2 13647
+respOk
+reqEntry 2 13649
+respOk
+reqEntry 2 13651
+respOk
+reqEntry 2 13653
+respOk
+reqEntry 2 13655
+respOk
+reqEntry 2 13657
+respOk
+reqEntry 2 13659
+respOk
+reqEntry 2 13661
+reqEntry 2 13662
+respOk
+respOk
+reqEntry 2 13664
+reqEntry 2 13665
+respOk
+respOk
+reqEntry 2 13667
+respOk
+reqEntry 2 13669
+respOk
+respOk
+reqEntry 2 13671
+respOk
+reqEntry 2 13673
+respOk
+reqEntry 2 13675
+respOk
+reqEntry 2 13677
+reqEntry 2 13678
+respOk
+respOk
+reqEntry 2 13680
+respOk
+reqEntry 2 13682
+respOk
+reqEntry 2 13684
+reqEntry 2 13685
+respOk
+respOk
+reqEntry 2 13687
+respOk
+reqEntry 2 13689
+respOk
+reqEntry 2 13691
+respOk
+reqEntry 2 13693
+respOk
+reqEntry 2 13695
+respOk
+reqEntry 2 13697
+respOk
+reqEntry 2 13699
+respOk
+reqEntry 2 13701
+respOk
+reqEntry 2 13703
+respOk
+reqEntry 2 13705
+respOk
+reqEntry 2 13707
+respOk
+reqEntry 2 13709
+respOk
+reqEntry 2 13711
+respOk
+reqEntry 2 13713
+respOk
+reqEntry 2 13715
+respOk
+reqEntry 2 13717
+respOk
+reqEntry 2 13719
+respOk
+respOk
+reqEntry 2 13721
+respOk
+reqEntry 2 13723
+respOk
+reqEntry 2 13725
+respOk
+reqEntry 2 13727
+respOk
+respOk
+reqEntry 2 13729
+respOk
+reqEntry 2 13731
+respOk
+reqEntry 2 13733
+respOk
+reqEntry 2 13735
+respOk
+reqEntry 2 13737
+respOk
+reqEntry 2 13739
+respOk
+reqEntry 2 13741
+respOk
+reqEntry 2 13743
+respOk
+reqEntry 2 13745
+respOk
+reqEntry 2 13747
+respOk
+reqEntry 2 13749
+respOk
+reqEntry 2 13751
+respOk
+reqEntry 2 13753
+respOk
+reqEntry 2 13755
+respOk
+reqEntry 2 13757
+respOk
+reqEntry 2 13759
+respOk
+reqEntry 2 13761
+respOk
+reqEntry 2 13763
+respOk
+reqEntry 2 13765
+respOk
+reqEntry 2 13767
+respOk
+reqEntry 2 13769
+respOk
+reqEntry 2 13771
+respOk
+reqEntry 2 13773
+respOk
+reqEntry 2 13775
+respOk
+reqEntry 2 13777
+respOk
+reqEntry 2 13779
+respOk
+respOk
+reqEntry 2 13781
+respOk
+reqEntry 2 13783
+respOk
+reqEntry 2 13785
+respOk
+reqEntry 2 13787
+respOk
+reqEntry 2 13789
+respOk
+reqEntry 2 13791
+respOk
+reqEntry 2 13793
+respOk
+reqEntry 2 13795
+respOk
+reqEntry 2 13797
+respOk
+reqEntry 2 13799
+respOk
+reqEntry 2 13801
+respOk
+reqEntry 2 13803
+respOk
+respOk
+reqEntry 2 13805
+respOk
+reqEntry 2 13807
+respOk
+reqEntry 2 13809
+respOk
+reqEntry 2 13811
+respOk
+reqEntry 2 13813
+respOk
+reqEntry 2 13815
+respOk
+reqEntry 2 13817
+respOk
+reqEntry 2 13819
+respOk
+reqEntry 2 13821
+respOk
+reqEntry 2 13823
+respOk
+reqEntry 2 13825
+respOk
+reqEntry 2 13827
+respOk
+reqEntry 2 13829
+respOk
+respOk
+reqEntry 2 13831
+respOk
+reqEntry 2 13833
+respOk
+reqEntry 2 13835
+reqEntry 2 13836
+respOk
+respOk
+reqEntry 2 13838
+respOk
+reqEntry 2 13840
+respOk
+reqEntry 2 13842
+respOk
+reqEntry 2 13844
+respOk
+reqEntry 2 13846
+reqEntry 2 13847
+respOk
+respOk
+reqEntry 2 13849
+respOk
+reqEntry 2 13851
+respOk
+reqEntry 2 13853
+respOk
+reqEntry 2 13855
+respOk
+respOk
+reqEntry 2 13857
+respOk
+reqEntry 2 13859
+respOk
+reqEntry 2 13861
+respOk
+reqEntry 2 13863
+respOk
+reqEntry 2 13865
+respOk
+reqEntry 2 13867
+reqEntry 2 13868
+respOk
+respOk
+reqEntry 2 13870
+respOk
+reqEntry 2 13872
+respOk
+reqEntry 2 13874
+respOk
+reqEntry 2 13876
+respOk
+reqEntry 2 13878
+respOk
+reqEntry 2 13880
+respOk
+reqEntry 2 13882
+respOk
+reqEntry 2 13884
+respOk
+reqEntry 2 13886
+respOk
+reqEntry 2 13888
+respOk
+reqEntry 2 13890
+respOk
+reqEntry 2 13892
+respOk
+reqEntry 2 13894
+respOk
+reqEntry 2 13896
+respOk
+reqEntry 2 13898
+respOk
+reqEntry 2 13900
+respOk
+reqEntry 2 13902
+reqEntry 2 13903
+respOk
+respOk
+reqEntry 2 13905
+respOk
+reqEntry 2 13907
+respOk
+reqEntry 2 13909
+respOk
+reqEntry 2 13911
+respOk
+reqEntry 2 13913
+respOk
+reqEntry 2 13915
+respOk
+reqEntry 2 13917
+reqEntry 2 13918
+respOk
+respOk
+reqEntry 2 13920
+respOk
+reqEntry 2 13922
+respOk
+reqEntry 2 13924
+respOk
+reqEntry 2 13926
+respOk
+reqEntry 2 13928
+respOk
+reqEntry 2 13930
+respOk
+reqEntry 2 13932
+respOk
+reqEntry 2 13934
+respOk
+reqEntry 2 13936
+respOk
+reqEntry 2 13938
+respOk
+reqEntry 2 13940
+respOk
+reqEntry 2 13942
+respOk
+reqEntry 2 13944
+respOk
+reqEntry 2 13946
+respOk
+reqEntry 2 13948
+respOk
+reqEntry 2 13950
+respOk
+respOk
+reqEntry 2 13952
+respOk
+reqEntry 2 13954
+respOk
+reqEntry 2 13956
+respOk
+reqEntry 2 13958
+respOk
+reqEntry 2 13960
+respOk
+reqEntry 2 13962
+respOk
+reqEntry 2 13964
+respOk
+reqEntry 2 13966
+respOk
+reqEntry 2 13968
+respOk
+reqEntry 2 13970
+respOk
+respOk
+reqEntry 2 13972
+respOk
+reqEntry 2 13974
+respOk
+reqEntry 2 13976
+respOk
+reqEntry 2 13978
+respOk
+reqEntry 2 13980
+respOk
+reqEntry 2 13982
+respOk
+reqEntry 2 13984
+respOk
+reqEntry 2 13986
+respOk
+reqEntry 2 13988
+respOk
+reqEntry 2 13990
+respOk
+reqEntry 2 13992
+respOk
+reqEntry 2 13994
+respOk
+reqEntry 2 13996
+respOk
+reqEntry 2 13998
+respOk
+reqEntry 2 14000
+respOk
+reqEntry 2 14002
+respOk
+reqEntry 2 14004
+reqEntry 2 14005
+respOk
+respOk
+reqEntry 2 14007
+respOk
+reqEntry 2 14009
+respOk
+reqEntry 2 14011
+respOk
+reqEntry 2 14013
+respOk
+reqEntry 2 14015
+respOk
+reqEntry 2 14017
+respOk
+reqEntry 2 14019
+respOk
+respOk
+reqEntry 2 14021
+respOk
+reqEntry 2 14023
+respOk
+reqEntry 2 14025
+respOk
+reqEntry 2 14027
+respOk
+reqEntry 2 14029
+respOk
+reqEntry 2 14031
+respOk
+reqEntry 2 14033
+reqEntry 2 14034
+respOk
+respOk
+reqEntry 2 14036
+respOk
+reqEntry 2 14038
+respOk
+reqEntry 2 14040
+respOk
+reqEntry 2 14042
+respOk
+reqEntry 2 14044
+respOk
+reqEntry 2 14046
+respOk
+reqEntry 2 14048
+respOk
+reqEntry 2 14050
+respOk
+reqEntry 2 14052
+respOk
+reqEntry 2 14054
+respOk
+reqEntry 2 14056
+respOk
+reqEntry 2 14058
+respOk
+reqEntry 2 14060
+respOk
+reqEntry 2 14062
+respOk
+reqEntry 2 14064
+respOk
+reqEntry 2 14066
+respOk
+reqEntry 2 14068
+respOk
+reqEntry 2 14070
+respOk
+reqEntry 2 14072
+respOk
+reqEntry 2 14074
+respOk
+reqEntry 2 14076
+reqEntry 2 14077
+respOk
+respOk
+reqEntry 2 14079
+respOk
+reqEntry 2 14081
+respOk
+reqEntry 2 14083
+respOk
+reqEntry 2 14085
+respOk
+reqEntry 2 14087
+respOk
+reqEntry 2 14089
+respOk
+reqEntry 2 14091
+respOk
+reqEntry 2 14093
+respOk
+reqEntry 2 14095
+respOk
+reqEntry 2 14097
+respOk
+reqEntry 2 14099
+reqEntry 2 14100
+respOk
+respOk
+reqEntry 2 14102
+respOk
+reqEntry 2 14104
+respOk
+reqEntry 2 14106
+respOk
+respOk
+reqEntry 2 14108
+respOk
+reqEntry 2 14110
+respOk
+reqEntry 2 14112
+respOk
+reqEntry 2 14114
+respOk
+reqEntry 2 14116
+respOk
+reqEntry 2 14118
+respOk
+reqEntry 2 14120
+respOk
+reqEntry 2 14122
+respOk
+reqEntry 2 14124
+respOk
+reqEntry 2 14126
+respOk
+respOk
+reqEntry 2 14128
+respOk
+respOk
+reqEntry 2 14130
+respOk
+respOk
+reqEntry 2 14132
+respOk
+reqEntry 2 14134
+respOk
+respOk
+reqEntry 2 14136
+respOk
+reqEntry 2 14138
+respOk
+reqEntry 2 14140
+respOk
+reqEntry 2 14142
+respOk
+reqEntry 2 14144
+respOk
+reqEntry 2 14146
+respOk
+reqEntry 2 14148
+respOk
+reqEntry 2 14150
+respOk
+reqEntry 2 14152
+respOk
+reqEntry 2 14154
+respOk
+reqEntry 2 14156
+respOk
+reqEntry 2 14158
+respOk
+reqEntry 2 14160
+respOk
+reqEntry 2 14162
+respOk
+reqEntry 2 14164
+respOk
+reqEntry 2 14166
+respOk
+respOk
+reqEntry 2 14168
+respOk
+reqEntry 2 14170
+respOk
+reqEntry 2 14172
+respOk
+reqEntry 2 14174
+respOk
+reqEntry 2 14176
+respOk
+reqEntry 2 14178
+respOk
+reqEntry 2 14180
+respOk
+reqEntry 2 14182
+respOk
+reqEntry 2 14184
+respOk
+reqEntry 2 14186
+respOk
+reqEntry 2 14188
+respOk
+reqEntry 2 14190
+respOk
+reqEntry 2 14192
+respOk
+reqEntry 2 14194
+respOk
+reqEntry 2 14196
+respOk
+reqEntry 2 14198
+respOk
+reqEntry 2 14200
+respOk
+reqEntry 2 14202
+respOk
+reqEntry 2 14204
+respOk
+reqEntry 2 14206
+respOk
+reqEntry 2 14208
+respOk
+reqEntry 2 14210
+respOk
+reqEntry 2 14212
+respOk
+reqEntry 2 14214
+respOk
+reqEntry 2 14216
+respOk
+reqEntry 2 14218
+respOk
+reqEntry 2 14220
+respOk
+reqEntry 2 14222
+respOk
+reqEntry 2 14224
+respOk
+reqEntry 2 14226
+respOk
+reqEntry 2 14228
+reqEntry 2 14229
+respOk
+respOk
+reqEntry 2 14231
+respOk
+reqEntry 2 14233
+respOk
+reqEntry 2 14235
+respOk
+reqEntry 2 14237
+respOk
+reqEntry 2 14239
+respOk
+reqEntry 2 14241
+respOk
+reqEntry 2 14243
+respOk
+reqEntry 2 14245
+respOk
+reqEntry 2 14247
+respOk
+reqEntry 2 14249
+respOk
+reqEntry 2 14251
+respOk
+reqEntry 2 14253
+respOk
+reqEntry 2 14255
+respOk
+reqEntry 2 14257
+respOk
+reqEntry 2 14259
+respOk
+reqEntry 2 14261
+respOk
+reqEntry 2 14263
+reqEntry 2 14264
+respOk
+respOk
+reqEntry 2 14266
+respOk
+reqEntry 2 14268
+respOk
+reqEntry 2 14270
+respOk
+reqEntry 2 14272
+respOk
+reqEntry 2 14274
+respOk
+respOk
+reqEntry 2 14276
+respOk
+reqEntry 2 14278
+respOk
+reqEntry 2 14280
+respOk
+reqEntry 2 14282
+respOk
+reqEntry 2 14284
+respOk
+reqEntry 2 14286
+respOk
+reqEntry 2 14288
+respOk
+reqEntry 2 14289
+respOk
+reqEntry 2 14291
+respOk
+reqEntry 2 14293
+respOk
+reqEntry 2 14295
+respOk
+reqEntry 2 14297
+respOk
+reqEntry 2 14299
+respOk
+reqEntry 2 14301
+respOk
+reqEntry 2 14303
+respOk
+reqEntry 2 14305
+respOk
+reqEntry 2 14307
+respOk
+respOk
+reqEntry 2 14309
+respOk
+reqEntry 2 14311
+respOk
+reqEntry 2 14313
+respOk
+reqEntry 2 14315
+respOk
+reqEntry 2 14317
+respOk
+reqEntry 2 14319
+reqEntry 2 14320
+respOk
+respOk
+reqEntry 2 14322
+respOk
+reqEntry 2 14324
+respOk
+respOk
+reqEntry 2 14326
+respOk
+reqEntry 2 14328
+respOk
+reqEntry 2 14330
+respOk
+reqEntry 2 14332
+respOk
+respOk
+reqEntry 2 14334
+respOk
+reqEntry 2 14336
+respOk
+reqEntry 2 14338
+respOk
+reqEntry 2 14340
+respOk
+reqEntry 2 14342
+reqEntry 2 14343
+respOk
+respOk
+reqEntry 2 14345
+respOk
+reqEntry 2 14347
+respOk
+reqEntry 2 14349
+respOk
+reqEntry 2 14351
+respOk
+reqEntry 2 14353
+respOk
+reqEntry 2 14355
+respOk
+reqEntry 2 14357
+respOk
+reqEntry 2 14359
+respOk
+reqEntry 2 14361
+respOk
+reqEntry 2 14363
+respOk
+reqEntry 2 14365
+respOk
+reqEntry 2 14367
+respOk
+reqEntry 2 14369
+respOk
+reqEntry 2 14371
+respOk
+reqEntry 2 14373
+respOk
+reqEntry 2 14375
+respOk
+reqEntry 2 14377
+respOk
+reqEntry 2 14379
+respOk
+reqEntry 2 14381
+respOk
+reqEntry 2 14383
+respOk
+reqEntry 2 14385
+respOk
+respOk
+reqEntry 2 14387
+respOk
+reqEntry 2 14389
+respOk
+reqEntry 2 14391
+respOk
+reqEntry 2 14393
+respOk
+reqEntry 2 14395
+respOk
+reqEntry 2 14397
+respOk
+reqEntry 2 14399
+respOk
+reqEntry 2 14401
+respOk
+reqEntry 2 14403
+respOk
+reqEntry 2 14405
+respOk
+reqEntry 2 14407
+respOk
+reqEntry 2 14409
+respOk
+respOk
+reqEntry 2 14411
+respOk
+reqEntry 2 14413
+respOk
+reqEntry 2 14415
+respOk
+reqEntry 2 14417
+respOk
+reqEntry 2 14419
+respOk
+respOk
+reqEntry 2 14421
+respOk
+reqEntry 2 14423
+respOk
+reqEntry 2 14425
+respOk
+reqEntry 2 14427
+respOk
+reqEntry 2 14429
+respOk
+reqEntry 2 14431
+0 take snapshot 28
+p0 -> p1: 0 take snapshot 28
+p2 -> p1: 
+INICIO SNAPSHOT 29
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 15728
+p0 -> p1: respOk
+reqEntry 2 14433
+respOk
+reqEntry 2 14435
+respOk
+reqEntry 2 14437
+respOk
+respOk
+reqEntry 2 14439
+respOk
+reqEntry 2 14441
+respOk
+reqEntry 2 14443
+respOk
+reqEntry 2 14445
+respOk
+reqEntry 2 14446
+respOk
+reqEntry 2 14448
+respOk
+reqEntry 2 14450
+respOk
+reqEntry 2 14452
+respOk
+reqEntry 2 14454
+respOk
+reqEntry 2 14456
+respOk
+reqEntry 2 14458
+respOk
+reqEntry 2 14460
+respOk
+reqEntry 2 14462
+respOk
+reqEntry 2 14464
+respOk
+reqEntry 2 14466
+respOk
+reqEntry 2 14468
+respOk
+reqEntry 2 14470
+respOk
+reqEntry 2 14472
+respOk
+reqEntry 2 14474
+respOk
+reqEntry 2 14476
+respOk
+reqEntry 2 14478
+respOk
+reqEntry 2 14480
+respOk
+reqEntry 2 14482
+respOk
+reqEntry 2 14484
+respOk
+reqEntry 2 14486
+respOk
+reqEntry 2 14488
+respOk
+reqEntry 2 14490
+respOk
+reqEntry 2 14492
+respOk
+reqEntry 2 14494
+respOk
+reqEntry 2 14496
+respOk
+reqEntry 2 14498
+respOk
+reqEntry 2 14500
+respOk
+reqEntry 2 14502
+respOk
+reqEntry 2 14504
+respOk
+respOk
+reqEntry 2 14506
+respOk
+reqEntry 2 14508
+respOk
+reqEntry 2 14510
+respOk
+reqEntry 2 14512
+respOk
+reqEntry 2 14514
+respOk
+respOk
+reqEntry 2 14516
+respOk
+reqEntry 2 14518
+respOk
+reqEntry 2 14520
+respOk
+reqEntry 2 14522
+respOk
+reqEntry 2 14524
+respOk
+reqEntry 2 14526
+respOk
+reqEntry 2 14528
+respOk
+reqEntry 2 14530
+respOk
+reqEntry 2 14532
+respOk
+reqEntry 2 14534
+respOk
+reqEntry 2 14536
+respOk
+reqEntry 2 14538
+respOk
+reqEntry 2 14540
+respOk
+reqEntry 2 14542
+respOk
+reqEntry 2 14544
+respOk
+reqEntry 2 14546
+respOk
+reqEntry 2 14548
+reqEntry 2 14549
+respOk
+respOk
+reqEntry 2 14551
+respOk
+reqEntry 2 14553
+respOk
+reqEntry 2 14555
+respOk
+reqEntry 2 14557
+respOk
+reqEntry 2 14559
+respOk
+reqEntry 2 14561
+respOk
+reqEntry 2 14563
+respOk
+reqEntry 2 14565
+respOk
+respOk
+reqEntry 2 14567
+respOk
+reqEntry 2 14569
+respOk
+respOk
+reqEntry 2 14571
+respOk
+respOk
+reqEntry 2 14573
+reqEntry 2 14574
+respOk
+respOk
+reqEntry 2 14576
+respOk
+reqEntry 2 14578
+respOk
+respOk
+reqEntry 2 14580
+respOk
+reqEntry 2 14581
+respOk
+respOk
+reqEntry 2 14583
+respOk
+respOk
+reqEntry 2 14585
+reqEntry 2 14586
+respOk
+respOk
+reqEntry 2 14588
+respOk
+reqEntry 2 14590
+respOk
+reqEntry 2 14592
+respOk
+reqEntry 2 14594
+respOk
+reqEntry 2 14596
+respOk
+reqEntry 2 14598
+respOk
+reqEntry 2 14600
+respOk
+reqEntry 2 14602
+respOk
+reqEntry 2 14604
+respOk
+reqEntry 2 14606
+respOk
+reqEntry 2 14608
+respOk
+reqEntry 2 14610
+reqEntry 2 14611
+respOk
+respOk
+reqEntry 2 14613
+respOk
+reqEntry 2 14615
+respOk
+reqEntry 2 14617
+respOk
+reqEntry 2 14619
+respOk
+reqEntry 2 14621
+respOk
+reqEntry 2 14623
+reqEntry 2 14624
+respOk
+respOk
+reqEntry 2 14626
+respOk
+reqEntry 2 14628
+respOk
+reqEntry 2 14630
+respOk
+reqEntry 2 14632
+respOk
+reqEntry 2 14634
+reqEntry 2 14635
+respOk
+respOk
+reqEntry 2 14637
+respOk
+reqEntry 2 14639
+respOk
+reqEntry 2 14641
+respOk
+respOk
+reqEntry 2 14643
+respOk
+reqEntry 2 14645
+respOk
+reqEntry 2 14647
+respOk
+reqEntry 2 14649
+respOk
+respOk
+reqEntry 2 14651
+respOk
+reqEntry 2 14653
+respOk
+reqEntry 2 14655
+respOk
+reqEntry 2 14657
+respOk
+reqEntry 2 14659
+respOk
+reqEntry 2 14661
+respOk
+reqEntry 2 14663
+respOk
+reqEntry 2 14665
+respOk
+reqEntry 2 14667
+respOk
+reqEntry 2 14669
+respOk
+reqEntry 2 14671
+respOk
+reqEntry 2 14673
+respOk
+reqEntry 2 14675
+respOk
+reqEntry 2 14677
+respOk
+reqEntry 2 14679
+respOk
+reqEntry 2 14681
+respOk
+reqEntry 2 14683
+respOk
+reqEntry 2 14685
+respOk
+reqEntry 2 14687
+respOk
+reqEntry 2 14689
+respOk
+reqEntry 2 14691
+respOk
+respOk
+reqEntry 2 14693
+respOk
+reqEntry 2 14695
+respOk
+reqEntry 2 14697
+respOk
+reqEntry 2 14699
+respOk
+respOk
+reqEntry 2 14701
+respOk
+reqEntry 2 14703
+respOk
+reqEntry 2 14705
+respOk
+reqEntry 2 14707
+respOk
+reqEntry 2 14709
+respOk
+reqEntry 2 14711
+reqEntry 2 14712
+respOk
+respOk
+reqEntry 2 14714
+respOk
+reqEntry 2 14716
+respOk
+reqEntry 2 14717
+respOk
+reqEntry 2 14719
+respOk
+reqEntry 2 14721
+respOk
+reqEntry 2 14723
+respOk
+reqEntry 2 14725
+respOk
+reqEntry 2 14727
+reqEntry 2 14728
+respOk
+respOk
+reqEntry 2 14730
+respOk
+reqEntry 2 14732
+respOk
+reqEntry 2 14734
+respOk
+reqEntry 2 14736
+respOk
+reqEntry 2 14738
+respOk
+reqEntry 2 14740
+respOk
+respOk
+reqEntry 2 14742
+respOk
+reqEntry 2 14744
+respOk
+reqEntry 2 14746
+respOk
+reqEntry 2 14748
+respOk
+reqEntry 2 14750
+respOk
+reqEntry 2 14752
+respOk
+reqEntry 2 14754
+respOk
+reqEntry 2 14756
+respOk
+reqEntry 2 14758
+respOk
+reqEntry 2 14760
+respOk
+reqEntry 2 14762
+respOk
+reqEntry 2 14764
+respOk
+reqEntry 2 14766
+respOk
+reqEntry 2 14768
+respOk
+reqEntry 2 14770
+reqEntry 2 14771
+respOk
+respOk
+reqEntry 2 14773
+respOk
+reqEntry 2 14775
+respOk
+reqEntry 2 14777
+respOk
+reqEntry 2 14779
+respOk
+reqEntry 2 14781
+respOk
+reqEntry 2 14783
+reqEntry 2 14784
+respOk
+respOk
+reqEntry 2 14786
+reqEntry 2 14787
+respOk
+respOk
+reqEntry 2 14789
+respOk
+reqEntry 2 14791
+reqEntry 2 14792
+respOk
+respOk
+reqEntry 2 14794
+respOk
+reqEntry 2 14796
+respOk
+reqEntry 2 14797
+respOk
+reqEntry 2 14799
+respOk
+reqEntry 2 14801
+respOk
+reqEntry 2 14803
+respOk
+reqEntry 2 14805
+respOk
+reqEntry 2 14807
+respOk
+reqEntry 2 14809
+respOk
+respOk
+reqEntry 2 14811
+respOk
+reqEntry 2 14813
+respOk
+reqEntry 2 14815
+respOk
+reqEntry 2 14817
+respOk
+reqEntry 2 14819
+respOk
+reqEntry 2 14821
+respOk
+reqEntry 2 14823
+respOk
+reqEntry 2 14825
+respOk
+reqEntry 2 14827
+respOk
+reqEntry 2 14829
+respOk
+reqEntry 2 14831
+respOk
+reqEntry 2 14833
+respOk
+reqEntry 2 14835
+respOk
+reqEntry 2 14837
+respOk
+reqEntry 2 14839
+respOk
+reqEntry 2 14841
+respOk
+reqEntry 2 14843
+respOk
+reqEntry 2 14845
+respOk
+reqEntry 2 14847
+respOk
+reqEntry 2 14849
+respOk
+reqEntry 2 14851
+respOk
+reqEntry 2 14853
+respOk
+reqEntry 2 14855
+respOk
+reqEntry 2 14857
+respOk
+reqEntry 2 14859
+respOk
+reqEntry 2 14861
+respOk
+reqEntry 2 14863
+respOk
+respOk
+reqEntry 2 14865
+respOk
+reqEntry 2 14867
+respOk
+reqEntry 2 14869
+respOk
+reqEntry 2 14871
+respOk
+reqEntry 2 14873
+respOk
+reqEntry 2 14875
+respOk
+reqEntry 2 14877
+respOk
+reqEntry 2 14879
+respOk
+reqEntry 2 14881
+respOk
+reqEntry 2 14883
+respOk
+reqEntry 2 14885
+respOk
+reqEntry 2 14887
+respOk
+reqEntry 2 14889
+respOk
+reqEntry 2 14891
+respOk
+reqEntry 2 14893
+respOk
+reqEntry 2 14895
+respOk
+reqEntry 2 14897
+respOk
+reqEntry 2 14899
+respOk
+reqEntry 2 14901
+respOk
+reqEntry 2 14903
+respOk
+reqEntry 2 14905
+respOk
+reqEntry 2 14907
+respOk
+reqEntry 2 14909
+respOk
+reqEntry 2 14911
+respOk
+reqEntry 2 14913
+respOk
+reqEntry 2 14915
+respOk
+reqEntry 2 14917
+respOk
+reqEntry 2 14919
+respOk
+reqEntry 2 14921
+respOk
+reqEntry 2 14923
+respOk
+reqEntry 2 14925
+respOk
+reqEntry 2 14927
+respOk
+reqEntry 2 14929
+respOk
+reqEntry 2 14931
+respOk
+reqEntry 2 14933
+respOk
+reqEntry 2 14935
+respOk
+reqEntry 2 14937
+respOk
+respOk
+reqEntry 2 14939
+reqEntry 2 14940
+respOk
+respOk
+reqEntry 2 14942
+respOk
+reqEntry 2 14944
+respOk
+reqEntry 2 14946
+respOk
+reqEntry 2 14947
+respOk
+reqEntry 2 14948
+respOk
+respOk
+reqEntry 2 14950
+respOk
+reqEntry 2 14952
+respOk
+reqEntry 2 14954
+respOk
+reqEntry 2 14956
+reqEntry 2 14957
+respOk
+respOk
+reqEntry 2 14959
+respOk
+reqEntry 2 14961
+respOk
+reqEntry 2 14963
+respOk
+reqEntry 2 14965
+respOk
+reqEntry 2 14967
+respOk
+reqEntry 2 14969
+respOk
+reqEntry 2 14971
+respOk
+reqEntry 2 14973
+respOk
+reqEntry 2 14975
+respOk
+reqEntry 2 14977
+respOk
+reqEntry 2 14979
+respOk
+reqEntry 2 14981
+respOk
+reqEntry 2 14983
+respOk
+reqEntry 2 14985
+respOk
+reqEntry 2 14987
+respOk
+reqEntry 2 14989
+respOk
+reqEntry 2 14991
+respOk
+reqEntry 2 14993
+respOk
+reqEntry 2 14995
+respOk
+reqEntry 2 14997
+respOk
+reqEntry 2 14999
+respOk
+reqEntry 2 15001
+respOk
+reqEntry 2 15003
+respOk
+reqEntry 2 15005
+respOk
+reqEntry 2 15007
+respOk
+reqEntry 2 15009
+respOk
+reqEntry 2 15011
+respOk
+reqEntry 2 15013
+respOk
+reqEntry 2 15015
+respOk
+reqEntry 2 15017
+respOk
+reqEntry 2 15019
+respOk
+reqEntry 2 15021
+respOk
+reqEntry 2 15023
+respOk
+reqEntry 2 15025
+respOk
+reqEntry 2 15027
+respOk
+reqEntry 2 15029
+respOk
+reqEntry 2 15031
+respOk
+reqEntry 2 15033
+respOk
+reqEntry 2 15035
+respOk
+reqEntry 2 15037
+respOk
+reqEntry 2 15039
+respOk
+reqEntry 2 15041
+respOk
+reqEntry 2 15043
+respOk
+reqEntry 2 15045
+respOk
+reqEntry 2 15047
+respOk
+reqEntry 2 15049
+respOk
+reqEntry 2 15051
+respOk
+reqEntry 2 15053
+respOk
+reqEntry 2 15055
+respOk
+reqEntry 2 15057
+respOk
+reqEntry 2 15059
+respOk
+reqEntry 2 15061
+reqEntry 2 15062
+respOk
+respOk
+reqEntry 2 15064
+respOk
+reqEntry 2 15066
+respOk
+reqEntry 2 15068
+respOk
+reqEntry 2 15070
+respOk
+reqEntry 2 15072
+respOk
+respOk
+reqEntry 2 15074
+respOk
+reqEntry 2 15076
+respOk
+reqEntry 2 15078
+respOk
+reqEntry 2 15080
+respOk
+reqEntry 2 15082
+respOk
+reqEntry 2 15084
+respOk
+reqEntry 2 15086
+respOk
+reqEntry 2 15088
+respOk
+reqEntry 2 15090
+respOk
+reqEntry 2 15092
+respOk
+reqEntry 2 15094
+respOk
+respOk
+reqEntry 2 15096
+respOk
+reqEntry 2 15098
+reqEntry 2 15099
+respOk
+respOk
+reqEntry 2 15101
+respOk
+reqEntry 2 15103
+respOk
+reqEntry 2 15105
+respOk
+reqEntry 2 15107
+respOk
+reqEntry 2 15109
+respOk
+reqEntry 2 15111
+respOk
+reqEntry 2 15113
+respOk
+reqEntry 2 15115
+respOk
+reqEntry 2 15117
+respOk
+reqEntry 2 15119
+respOk
+reqEntry 2 15121
+respOk
+reqEntry 2 15123
+respOk
+reqEntry 2 15125
+respOk
+reqEntry 2 15127
+respOk
+reqEntry 2 15129
+respOk
+reqEntry 2 15131
+respOk
+respOk
+reqEntry 2 15133
+respOk
+reqEntry 2 15135
+respOk
+reqEntry 2 15137
+respOk
+reqEntry 2 15139
+reqEntry 2 15140
+respOk
+respOk
+reqEntry 2 15142
+respOk
+reqEntry 2 15144
+respOk
+reqEntry 2 15146
+respOk
+respOk
+reqEntry 2 15148
+respOk
+reqEntry 2 15150
+respOk
+reqEntry 2 15152
+respOk
+reqEntry 2 15154
+respOk
+reqEntry 2 15156
+respOk
+reqEntry 2 15158
+reqEntry 2 15159
+respOk
+respOk
+reqEntry 2 15161
+respOk
+reqEntry 2 15163
+respOk
+reqEntry 2 15165
+respOk
+reqEntry 2 15167
+respOk
+reqEntry 2 15169
+respOk
+reqEntry 2 15171
+respOk
+reqEntry 2 15173
+respOk
+respOk
+reqEntry 2 15175
+respOk
+reqEntry 2 15177
+respOk
+reqEntry 2 15179
+respOk
+reqEntry 2 15181
+respOk
+reqEntry 2 15183
+respOk
+reqEntry 2 15185
+respOk
+reqEntry 2 15187
+respOk
+reqEntry 2 15189
+respOk
+reqEntry 2 15191
+respOk
+reqEntry 2 15193
+respOk
+reqEntry 2 15195
+respOk
+reqEntry 2 15197
+respOk
+reqEntry 2 15199
+respOk
+reqEntry 2 15201
+respOk
+reqEntry 2 15203
+respOk
+respOk
+reqEntry 2 15205
+respOk
+reqEntry 2 15207
+respOk
+reqEntry 2 15209
+respOk
+reqEntry 2 15211
+respOk
+reqEntry 2 15213
+reqEntry 2 15214
+respOk
+respOk
+reqEntry 2 15216
+reqEntry 2 15217
+respOk
+respOk
+reqEntry 2 15219
+respOk
+reqEntry 2 15221
+respOk
+reqEntry 2 15223
+respOk
+respOk
+reqEntry 2 15225
+respOk
+reqEntry 2 15227
+respOk
+reqEntry 2 15229
+respOk
+reqEntry 2 15231
+respOk
+reqEntry 2 15233
+respOk
+reqEntry 2 15235
+respOk
+reqEntry 2 15237
+respOk
+reqEntry 2 15239
+respOk
+reqEntry 2 15241
+respOk
+reqEntry 2 15243
+respOk
+reqEntry 2 15245
+reqEntry 2 15246
+respOk
+respOk
+reqEntry 2 15248
+respOk
+reqEntry 2 15250
+respOk
+reqEntry 2 15252
+respOk
+reqEntry 2 15254
+respOk
+reqEntry 2 15256
+respOk
+reqEntry 2 15258
+respOk
+reqEntry 2 15260
+respOk
+reqEntry 2 15262
+respOk
+reqEntry 2 15264
+respOk
+reqEntry 2 15266
+respOk
+reqEntry 2 15268
+respOk
+reqEntry 2 15270
+reqEntry 2 15271
+respOk
+respOk
+reqEntry 2 15273
+respOk
+reqEntry 2 15275
+respOk
+reqEntry 2 15277
+respOk
+reqEntry 2 15279
+reqEntry 2 15280
+respOk
+respOk
+reqEntry 2 15282
+respOk
+reqEntry 2 15284
+respOk
+reqEntry 2 15286
+respOk
+reqEntry 2 15288
+respOk
+reqEntry 2 15290
+respOk
+reqEntry 2 15292
+respOk
+reqEntry 2 15294
+respOk
+respOk
+reqEntry 2 15296
+respOk
+reqEntry 2 15298
+respOk
+reqEntry 2 15300
+respOk
+reqEntry 2 15302
+respOk
+reqEntry 2 15304
+respOk
+reqEntry 2 15306
+respOk
+reqEntry 2 15308
+respOk
+reqEntry 2 15310
+respOk
+reqEntry 2 15311
+respOk
+reqEntry 2 15313
+respOk
+reqEntry 2 15315
+respOk
+reqEntry 2 15317
+respOk
+reqEntry 2 15319
+respOk
+reqEntry 2 15321
+respOk
+reqEntry 2 15323
+respOk
+reqEntry 2 15325
+respOk
+reqEntry 2 15327
+respOk
+reqEntry 2 15329
+respOk
+reqEntry 2 15331
+respOk
+reqEntry 2 15333
+respOk
+reqEntry 2 15335
+respOk
+reqEntry 2 15337
+respOk
+reqEntry 2 15339
+respOk
+reqEntry 2 15341
+respOk
+reqEntry 2 15343
+respOk
+reqEntry 2 15345
+respOk
+reqEntry 2 15347
+respOk
+reqEntry 2 15349
+respOk
+reqEntry 2 15351
+respOk
+reqEntry 2 15353
+respOk
+reqEntry 2 15355
+respOk
+reqEntry 2 15357
+respOk
+reqEntry 2 15359
+respOk
+respOk
+reqEntry 2 15361
+respOk
+reqEntry 2 15363
+respOk
+reqEntry 2 15365
+respOk
+reqEntry 2 15367
+respOk
+reqEntry 2 15369
+respOk
+reqEntry 2 15371
+respOk
+reqEntry 2 15373
+respOk
+reqEntry 2 15375
+respOk
+reqEntry 2 15377
+respOk
+reqEntry 2 15379
+respOk
+reqEntry 2 15381
+respOk
+reqEntry 2 15383
+respOk
+reqEntry 2 15385
+respOk
+reqEntry 2 15387
+respOk
+reqEntry 2 15389
+respOk
+reqEntry 2 15391
+respOk
+reqEntry 2 15393
+respOk
+reqEntry 2 15395
+respOk
+reqEntry 2 15397
+respOk
+reqEntry 2 15399
+respOk
+reqEntry 2 15401
+respOk
+reqEntry 2 15403
+respOk
+reqEntry 2 15405
+respOk
+reqEntry 2 15407
+respOk
+reqEntry 2 15409
+respOk
+reqEntry 2 15411
+respOk
+reqEntry 2 15413
+respOk
+reqEntry 2 15415
+respOk
+reqEntry 2 15417
+respOk
+reqEntry 2 15419
+respOk
+reqEntry 2 15421
+reqEntry 2 15422
+respOk
+respOk
+reqEntry 2 15424
+respOk
+reqEntry 2 15426
+respOk
+reqEntry 2 15428
+respOk
+reqEntry 2 15430
+respOk
+reqEntry 2 15432
+respOk
+reqEntry 2 15434
+reqEntry 2 15435
+respOk
+respOk
+reqEntry 2 15437
+respOk
+reqEntry 2 15439
+respOk
+reqEntry 2 15441
+respOk
+reqEntry 2 15443
+respOk
+reqEntry 2 15445
+respOk
+reqEntry 2 15447
+respOk
+reqEntry 2 15449
+respOk
+reqEntry 2 15451
+respOk
+reqEntry 2 15453
+reqEntry 2 15454
+respOk
+respOk
+reqEntry 2 15456
+respOk
+reqEntry 2 15458
+respOk
+reqEntry 2 15460
+respOk
+reqEntry 2 15462
+respOk
+reqEntry 2 15464
+respOk
+reqEntry 2 15466
+respOk
+reqEntry 2 15468
+respOk
+reqEntry 2 15470
+respOk
+reqEntry 2 15472
+respOk
+reqEntry 2 15474
+respOk
+reqEntry 2 15476
+respOk
+reqEntry 2 15478
+respOk
+reqEntry 2 15480
+respOk
+reqEntry 2 15482
+respOk
+reqEntry 2 15484
+respOk
+reqEntry 2 15486
+respOk
+reqEntry 2 15488
+respOk
+reqEntry 2 15490
+respOk
+reqEntry 2 15492
+respOk
+reqEntry 2 15494
+respOk
+reqEntry 2 15496
+respOk
+reqEntry 2 15498
+respOk
+reqEntry 2 15500
+respOk
+reqEntry 2 15502
+respOk
+reqEntry 2 15504
+respOk
+reqEntry 2 15506
+respOk
+reqEntry 2 15508
+reqEntry 2 15509
+respOk
+respOk
+reqEntry 2 15511
+respOk
+respOk
+reqEntry 2 15513
+respOk
+reqEntry 2 15515
+respOk
+reqEntry 2 15517
+respOk
+reqEntry 2 15519
+respOk
+reqEntry 2 15521
+respOk
+reqEntry 2 15523
+respOk
+reqEntry 2 15525
+respOk
+reqEntry 2 15527
+respOk
+reqEntry 2 15529
+respOk
+reqEntry 2 15531
+respOk
+reqEntry 2 15533
+respOk
+reqEntry 2 15535
+respOk
+reqEntry 2 15537
+respOk
+reqEntry 2 15539
+respOk
+reqEntry 2 15541
+respOk
+reqEntry 2 15543
+respOk
+reqEntry 2 15545
+respOk
+reqEntry 2 15547
+respOk
+reqEntry 2 15549
+respOk
+reqEntry 2 15551
+respOk
+reqEntry 2 15553
+respOk
+reqEntry 2 15555
+respOk
+reqEntry 2 15557
+respOk
+reqEntry 2 15559
+respOk
+reqEntry 2 15561
+respOk
+reqEntry 2 15563
+reqEntry 2 15564
+respOk
+respOk
+reqEntry 2 15566
+respOk
+reqEntry 2 15568
+respOk
+reqEntry 2 15569
+respOk
+reqEntry 2 15571
+respOk
+reqEntry 2 15573
+respOk
+respOk
+reqEntry 2 15575
+respOk
+respOk
+reqEntry 2 15577
+reqEntry 2 15578
+respOk
+respOk
+reqEntry 2 15580
+respOk
+reqEntry 2 15582
+respOk
+reqEntry 2 15584
+respOk
+reqEntry 2 15586
+respOk
+reqEntry 2 15588
+respOk
+reqEntry 2 15590
+respOk
+reqEntry 2 15592
+respOk
+reqEntry 2 15594
+respOk
+reqEntry 2 15596
+respOk
+reqEntry 2 15598
+respOk
+reqEntry 2 15600
+respOk
+reqEntry 2 15602
+respOk
+reqEntry 2 15604
+respOk
+reqEntry 2 15606
+respOk
+reqEntry 2 15608
+respOk
+reqEntry 2 15610
+reqEntry 2 15611
+respOk
+respOk
+reqEntry 2 15613
+respOk
+reqEntry 2 15615
+respOk
+reqEntry 2 15617
+respOk
+reqEntry 2 15619
+respOk
+reqEntry 2 15621
+respOk
+reqEntry 2 15623
+respOk
+reqEntry 2 15625
+respOk
+reqEntry 2 15627
+respOk
+reqEntry 2 15629
+respOk
+reqEntry 2 15631
+respOk
+reqEntry 2 15633
+respOk
+reqEntry 2 15635
+respOk
+reqEntry 2 15637
+respOk
+reqEntry 2 15639
+respOk
+reqEntry 2 15641
+respOk
+reqEntry 2 15643
+respOk
+reqEntry 2 15645
+respOk
+reqEntry 2 15647
+respOk
+reqEntry 2 15649
+respOk
+reqEntry 2 15651
+respOk
+reqEntry 2 15653
+respOk
+reqEntry 2 15655
+respOk
+reqEntry 2 15657
+respOk
+reqEntry 2 15659
+respOk
+reqEntry 2 15661
+respOk
+reqEntry 2 15663
+respOk
+reqEntry 2 15665
+respOk
+reqEntry 2 15667
+respOk
+reqEntry 2 15669
+respOk
+reqEntry 2 15671
+respOk
+reqEntry 2 15673
+respOk
+reqEntry 2 15675
+respOk
+reqEntry 2 15677
+respOk
+reqEntry 2 15679
+respOk
+reqEntry 2 15681
+respOk
+reqEntry 2 15683
+respOk
+reqEntry 2 15685
+respOk
+reqEntry 2 15687
+respOk
+reqEntry 2 15689
+respOk
+reqEntry 2 15691
+respOk
+reqEntry 2 15693
+respOk
+reqEntry 2 15695
+respOk
+respOk
+reqEntry 2 15697
+respOk
+reqEntry 2 15699
+respOk
+respOk
+reqEntry 2 15701
+respOk
+reqEntry 2 15703
+respOk
+reqEntry 2 15705
+respOk
+reqEntry 2 15707
+respOk
+reqEntry 2 15709
+respOk
+reqEntry 2 15711
+respOk
+reqEntry 2 15713
+respOk
+reqEntry 2 15715
+respOk
+reqEntry 2 15717
+respOk
+reqEntry 2 15719
+respOk
+reqEntry 2 15721
+respOk
+reqEntry 2 15723
+respOk
+reqEntry 2 15725
+respOk
+reqEntry 2 15727
+0 take snapshot 29
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 29
+INICIO SNAPSHOT 30
+LocalState: p1
+st: 2
+waiting: [false false true]
+lcl: 17087
+p0 -> p1: respOk
+reqEntry 2 15731
+respOk
+reqEntry 2 15733
+respOk
+reqEntry 2 15735
+respOk
+reqEntry 2 15737
+respOk
+reqEntry 2 15739
+respOk
+reqEntry 2 15741
+respOk
+reqEntry 2 15743
+respOk
+reqEntry 2 15745
+respOk
+reqEntry 2 15747
+respOk
+reqEntry 2 15749
+reqEntry 2 15750
+respOk
+respOk
+reqEntry 2 15752
+respOk
+reqEntry 2 15754
+respOk
+respOk
+reqEntry 2 15755
+reqEntry 2 15756
+respOk
+respOk
+reqEntry 2 15758
+respOk
+reqEntry 2 15760
+respOk
+reqEntry 2 15762
+respOk
+reqEntry 2 15764
+respOk
+reqEntry 2 15766
+respOk
+reqEntry 2 15768
+respOk
+reqEntry 2 15770
+respOk
+reqEntry 2 15772
+respOk
+reqEntry 2 15774
+respOk
+reqEntry 2 15776
+respOk
+reqEntry 2 15778
+respOk
+reqEntry 2 15780
+respOk
+reqEntry 2 15782
+respOk
+reqEntry 2 15784
+reqEntry 2 15785
+respOk
+respOk
+reqEntry 2 15787
+respOk
+reqEntry 2 15789
+respOk
+reqEntry 2 15791
+respOk
+reqEntry 2 15793
+respOk
+reqEntry 2 15795
+respOk
+reqEntry 2 15797
+respOk
+reqEntry 2 15799
+respOk
+reqEntry 2 15801
+respOk
+reqEntry 2 15803
+reqEntry 2 15804
+respOk
+respOk
+reqEntry 2 15806
+respOk
+reqEntry 2 15808
+respOk
+reqEntry 2 15810
+respOk
+reqEntry 2 15812
+reqEntry 2 15813
+respOk
+respOk
+reqEntry 2 15815
+reqEntry 2 15816
+respOk
+respOk
+reqEntry 2 15818
+respOk
+respOk
+reqEntry 2 15820
+respOk
+reqEntry 2 15822
+respOk
+reqEntry 2 15824
+respOk
+reqEntry 2 15826
+respOk
+reqEntry 2 15828
+respOk
+reqEntry 2 15830
+respOk
+reqEntry 2 15832
+respOk
+reqEntry 2 15834
+respOk
+reqEntry 2 15836
+respOk
+reqEntry 2 15838
+respOk
+reqEntry 2 15840
+respOk
+reqEntry 2 15842
+respOk
+reqEntry 2 15844
+respOk
+reqEntry 2 15846
+respOk
+reqEntry 2 15848
+respOk
+reqEntry 2 15850
+respOk
+reqEntry 2 15852
+respOk
+reqEntry 2 15854
+respOk
+respOk
+reqEntry 2 15856
+respOk
+reqEntry 2 15858
+respOk
+reqEntry 2 15859
+respOk
+reqEntry 2 15861
+respOk
+reqEntry 2 15863
+respOk
+reqEntry 2 15865
+respOk
+reqEntry 2 15867
+respOk
+reqEntry 2 15869
+respOk
+reqEntry 2 15871
+respOk
+reqEntry 2 15873
+respOk
+reqEntry 2 15875
+respOk
+reqEntry 2 15877
+respOk
+reqEntry 2 15879
+respOk
+respOk
+reqEntry 2 15881
+respOk
+reqEntry 2 15883
+respOk
+reqEntry 2 15885
+respOk
+reqEntry 2 15887
+respOk
+reqEntry 2 15889
+respOk
+reqEntry 2 15891
+reqEntry 2 15892
+respOk
+respOk
+reqEntry 2 15894
+respOk
+reqEntry 2 15896
+respOk
+reqEntry 2 15898
+respOk
+reqEntry 2 15900
+respOk
+reqEntry 2 15902
+respOk
+respOk
+reqEntry 2 15904
+respOk
+reqEntry 2 15906
+respOk
+reqEntry 2 15908
+respOk
+reqEntry 2 15910
+respOk
+reqEntry 2 15912
+respOk
+reqEntry 2 15914
+respOk
+reqEntry 2 15916
+respOk
+reqEntry 2 15918
+respOk
+reqEntry 2 15920
+respOk
+reqEntry 2 15922
+respOk
+reqEntry 2 15924
+respOk
+reqEntry 2 15926
+respOk
+reqEntry 2 15928
+respOk
+reqEntry 2 15930
+respOk
+reqEntry 2 15932
+respOk
+reqEntry 2 15934
+respOk
+reqEntry 2 15936
+respOk
+reqEntry 2 15938
+respOk
+reqEntry 2 15940
+respOk
+reqEntry 2 15942
+respOk
+reqEntry 2 15944
+respOk
+reqEntry 2 15946
+respOk
+reqEntry 2 15948
+respOk
+reqEntry 2 15950
+respOk
+reqEntry 2 15952
+respOk
+reqEntry 2 15954
+respOk
+reqEntry 2 15956
+respOk
+reqEntry 2 15958
+respOk
+reqEntry 2 15960
+respOk
+reqEntry 2 15962
+respOk
+reqEntry 2 15964
+respOk
+reqEntry 2 15966
+respOk
+reqEntry 2 15968
+respOk
+reqEntry 2 15970
+respOk
+reqEntry 2 15972
+respOk
+reqEntry 2 15974
+respOk
+reqEntry 2 15976
+respOk
+reqEntry 2 15978
+respOk
+reqEntry 2 15980
+respOk
+reqEntry 2 15982
+respOk
+reqEntry 2 15984
+respOk
+reqEntry 2 15986
+respOk
+reqEntry 2 15988
+respOk
+reqEntry 2 15990
+respOk
+reqEntry 2 15992
+respOk
+reqEntry 2 15994
+respOk
+reqEntry 2 15996
+reqEntry 2 15997
+respOk
+respOk
+reqEntry 2 15999
+respOk
+reqEntry 2 16001
+respOk
+reqEntry 2 16003
+respOk
+reqEntry 2 16005
+respOk
+reqEntry 2 16007
+respOk
+reqEntry 2 16009
+respOk
+reqEntry 2 16011
+respOk
+reqEntry 2 16012
+respOk
+reqEntry 2 16014
+respOk
+reqEntry 2 16016
+respOk
+reqEntry 2 16018
+respOk
+reqEntry 2 16020
+respOk
+reqEntry 2 16022
+respOk
+reqEntry 2 16024
+respOk
+reqEntry 2 16026
+respOk
+reqEntry 2 16028
+respOk
+reqEntry 2 16030
+respOk
+reqEntry 2 16032
+respOk
+reqEntry 2 16034
+reqEntry 2 16035
+respOk
+respOk
+reqEntry 2 16037
+respOk
+reqEntry 2 16039
+respOk
+reqEntry 2 16041
+respOk
+reqEntry 2 16043
+respOk
+reqEntry 2 16045
+respOk
+reqEntry 2 16047
+respOk
+reqEntry 2 16049
+respOk
+reqEntry 2 16051
+respOk
+reqEntry 2 16053
+respOk
+reqEntry 2 16055
+respOk
+reqEntry 2 16057
+respOk
+reqEntry 2 16059
+respOk
+respOk
+reqEntry 2 16061
+respOk
+reqEntry 2 16063
+respOk
+reqEntry 2 16065
+respOk
+reqEntry 2 16067
+respOk
+reqEntry 2 16069
+respOk
+reqEntry 2 16071
+respOk
+reqEntry 2 16073
+respOk
+reqEntry 2 16075
+respOk
+reqEntry 2 16077
+respOk
+reqEntry 2 16079
+respOk
+reqEntry 2 16081
+respOk
+reqEntry 2 16083
+respOk
+reqEntry 2 16085
+reqEntry 2 16086
+respOk
+respOk
+reqEntry 2 16088
+respOk
+reqEntry 2 16090
+respOk
+reqEntry 2 16092
+respOk
+reqEntry 2 16093
+respOk
+reqEntry 2 16095
+respOk
+reqEntry 2 16097
+respOk
+reqEntry 2 16099
+respOk
+reqEntry 2 16101
+respOk
+reqEntry 2 16103
+respOk
+reqEntry 2 16105
+respOk
+reqEntry 2 16107
+respOk
+reqEntry 2 16108
+respOk
+reqEntry 2 16110
+respOk
+reqEntry 2 16112
+respOk
+reqEntry 2 16114
+respOk
+reqEntry 2 16116
+respOk
+reqEntry 2 16118
+respOk
+reqEntry 2 16120
+respOk
+reqEntry 2 16122
+respOk
+reqEntry 2 16124
+respOk
+respOk
+reqEntry 2 16126
+respOk
+reqEntry 2 16128
+respOk
+reqEntry 2 16130
+respOk
+reqEntry 2 16132
+respOk
+reqEntry 2 16134
+respOk
+reqEntry 2 16136
+respOk
+respOk
+reqEntry 2 16138
+respOk
+reqEntry 2 16139
+respOk
+reqEntry 2 16141
+respOk
+reqEntry 2 16143
+respOk
+respOk
+reqEntry 2 16145
+respOk
+reqEntry 2 16147
+respOk
+reqEntry 2 16148
+respOk
+reqEntry 2 16150
+respOk
+reqEntry 2 16152
+respOk
+reqEntry 2 16154
+respOk
+reqEntry 2 16156
+respOk
+reqEntry 2 16157
+respOk
+reqEntry 2 16159
+respOk
+reqEntry 2 16161
+respOk
+reqEntry 2 16163
+respOk
+reqEntry 2 16165
+respOk
+respOk
+reqEntry 2 16167
+respOk
+reqEntry 2 16169
+respOk
+reqEntry 2 16171
+respOk
+reqEntry 2 16173
+respOk
+reqEntry 2 16175
+respOk
+reqEntry 2 16177
+respOk
+reqEntry 2 16179
+respOk
+reqEntry 2 16181
+respOk
+reqEntry 2 16183
+respOk
+reqEntry 2 16185
+respOk
+reqEntry 2 16187
+respOk
+reqEntry 2 16189
+respOk
+reqEntry 2 16191
+respOk
+reqEntry 2 16193
+respOk
+reqEntry 2 16195
+respOk
+reqEntry 2 16197
+respOk
+reqEntry 2 16199
+respOk
+reqEntry 2 16201
+respOk
+reqEntry 2 16203
+respOk
+reqEntry 2 16205
+reqEntry 2 16206
+respOk
+respOk
+reqEntry 2 16208
+respOk
+reqEntry 2 16210
+respOk
+reqEntry 2 16212
+respOk
+reqEntry 2 16214
+respOk
+reqEntry 2 16216
+respOk
+reqEntry 2 16218
+respOk
+reqEntry 2 16220
+respOk
+reqEntry 2 16222
+respOk
+reqEntry 2 16224
+respOk
+reqEntry 2 16226
+respOk
+reqEntry 2 16228
+respOk
+reqEntry 2 16230
+respOk
+reqEntry 2 16232
+respOk
+reqEntry 2 16234
+respOk
+reqEntry 2 16236
+respOk
+reqEntry 2 16238
+respOk
+reqEntry 2 16240
+respOk
+reqEntry 2 16242
+respOk
+reqEntry 2 16244
+respOk
+reqEntry 2 16246
+respOk
+reqEntry 2 16248
+respOk
+reqEntry 2 16250
+reqEntry 2 16251
+respOk
+respOk
+reqEntry 2 16253
+respOk
+reqEntry 2 16255
+respOk
+reqEntry 2 16257
+respOk
+reqEntry 2 16259
+respOk
+reqEntry 2 16261
+respOk
+reqEntry 2 16263
+respOk
+reqEntry 2 16265
+respOk
+reqEntry 2 16267
+respOk
+reqEntry 2 16269
+respOk
+reqEntry 2 16271
+respOk
+reqEntry 2 16273
+respOk
+reqEntry 2 16275
+respOk
+reqEntry 2 16277
+reqEntry 2 16278
+respOk
+respOk
+reqEntry 2 16280
+respOk
+reqEntry 2 16282
+respOk
+reqEntry 2 16284
+respOk
+reqEntry 2 16286
+respOk
+reqEntry 2 16288
+reqEntry 2 16289
+respOk
+respOk
+reqEntry 2 16291
+respOk
+reqEntry 2 16293
+respOk
+reqEntry 2 16295
+respOk
+reqEntry 2 16297
+respOk
+reqEntry 2 16299
+respOk
+reqEntry 2 16301
+respOk
+reqEntry 2 16303
+respOk
+reqEntry 2 16305
+respOk
+reqEntry 2 16307
+respOk
+reqEntry 2 16309
+reqEntry 2 16310
+respOk
+respOk
+reqEntry 2 16312
+respOk
+reqEntry 2 16314
+respOk
+reqEntry 2 16316
+respOk
+reqEntry 2 16318
+respOk
+reqEntry 2 16320
+respOk
+reqEntry 2 16322
+respOk
+reqEntry 2 16324
+respOk
+reqEntry 2 16326
+respOk
+respOk
+reqEntry 2 16328
+respOk
+reqEntry 2 16330
+respOk
+reqEntry 2 16332
+respOk
+reqEntry 2 16334
+respOk
+reqEntry 2 16336
+respOk
+reqEntry 2 16338
+respOk
+reqEntry 2 16340
+respOk
+reqEntry 2 16342
+respOk
+reqEntry 2 16344
+respOk
+reqEntry 2 16346
+respOk
+reqEntry 2 16348
+respOk
+reqEntry 2 16350
+respOk
+reqEntry 2 16352
+respOk
+reqEntry 2 16354
+respOk
+reqEntry 2 16356
+respOk
+reqEntry 2 16358
+respOk
+reqEntry 2 16360
+respOk
+reqEntry 2 16362
+respOk
+reqEntry 2 16364
+respOk
+respOk
+reqEntry 2 16366
+respOk
+reqEntry 2 16368
+respOk
+respOk
+reqEntry 2 16370
+respOk
+reqEntry 2 16372
+respOk
+reqEntry 2 16374
+respOk
+reqEntry 2 16376
+respOk
+reqEntry 2 16378
+reqEntry 2 16379
+respOk
+respOk
+reqEntry 2 16381
+respOk
+respOk
+reqEntry 2 16383
+respOk
+reqEntry 2 16385
+respOk
+reqEntry 2 16387
+respOk
+reqEntry 2 16389
+respOk
+reqEntry 2 16391
+respOk
+reqEntry 2 16393
+respOk
+reqEntry 2 16395
+respOk
+reqEntry 2 16397
+respOk
+reqEntry 2 16399
+respOk
+reqEntry 2 16401
+respOk
+reqEntry 2 16403
+respOk
+reqEntry 2 16405
+respOk
+respOk
+reqEntry 2 16407
+respOk
+reqEntry 2 16409
+respOk
+reqEntry 2 16411
+respOk
+reqEntry 2 16413
+respOk
+reqEntry 2 16415
+respOk
+reqEntry 2 16417
+respOk
+reqEntry 2 16419
+respOk
+reqEntry 2 16421
+respOk
+reqEntry 2 16423
+reqEntry 2 16424
+respOk
+respOk
+reqEntry 2 16426
+respOk
+reqEntry 2 16428
+respOk
+reqEntry 2 16430
+respOk
+reqEntry 2 16431
+respOk
+reqEntry 2 16433
+respOk
+reqEntry 2 16435
+respOk
+reqEntry 2 16437
+respOk
+reqEntry 2 16439
+respOk
+reqEntry 2 16441
+respOk
+reqEntry 2 16443
+respOk
+reqEntry 2 16445
+respOk
+reqEntry 2 16447
+respOk
+reqEntry 2 16449
+respOk
+reqEntry 2 16451
+respOk
+reqEntry 2 16453
+respOk
+reqEntry 2 16455
+respOk
+reqEntry 2 16457
+respOk
+reqEntry 2 16459
+respOk
+respOk
+reqEntry 2 16461
+respOk
+reqEntry 2 16463
+respOk
+reqEntry 2 16465
+respOk
+reqEntry 2 16467
+respOk
+respOk
+reqEntry 2 16469
+respOk
+reqEntry 2 16471
+respOk
+reqEntry 2 16473
+respOk
+reqEntry 2 16475
+respOk
+reqEntry 2 16477
+respOk
+reqEntry 2 16479
+respOk
+reqEntry 2 16481
+respOk
+reqEntry 2 16483
+respOk
+reqEntry 2 16485
+reqEntry 2 16486
+respOk
+respOk
+reqEntry 2 16488
+respOk
+reqEntry 2 16490
+respOk
+reqEntry 2 16492
+respOk
+reqEntry 2 16494
+respOk
+reqEntry 2 16496
+respOk
+reqEntry 2 16498
+respOk
+reqEntry 2 16500
+respOk
+reqEntry 2 16502
+respOk
+reqEntry 2 16504
+respOk
+reqEntry 2 16506
+respOk
+reqEntry 2 16508
+respOk
+reqEntry 2 16510
+respOk
+reqEntry 2 16512
+respOk
+reqEntry 2 16514
+respOk
+reqEntry 2 16516
+respOk
+reqEntry 2 16518
+respOk
+reqEntry 2 16520
+respOk
+reqEntry 2 16522
+respOk
+reqEntry 2 16524
+respOk
+reqEntry 2 16526
+respOk
+reqEntry 2 16528
+respOk
+reqEntry 2 16530
+respOk
+reqEntry 2 16532
+respOk
+reqEntry 2 16534
+respOk
+reqEntry 2 16536
+respOk
+reqEntry 2 16538
+respOk
+reqEntry 2 16540
+respOk
+reqEntry 2 16542
+respOk
+reqEntry 2 16544
+respOk
+reqEntry 2 16546
+respOk
+reqEntry 2 16548
+respOk
+respOk
+reqEntry 2 16550
+respOk
+reqEntry 2 16552
+respOk
+reqEntry 2 16554
+respOk
+reqEntry 2 16556
+respOk
+reqEntry 2 16558
+reqEntry 2 16559
+respOk
+respOk
+reqEntry 2 16561
+respOk
+reqEntry 2 16563
+respOk
+respOk
+reqEntry 2 16565
+respOk
+reqEntry 2 16567
+respOk
+reqEntry 2 16569
+respOk
+reqEntry 2 16571
+respOk
+reqEntry 2 16573
+respOk
+reqEntry 2 16575
+respOk
+reqEntry 2 16577
+respOk
+reqEntry 2 16579
+reqEntry 2 16580
+respOk
+respOk
+reqEntry 2 16582
+respOk
+reqEntry 2 16584
+respOk
+reqEntry 2 16586
+respOk
+reqEntry 2 16588
+respOk
+reqEntry 2 16590
+respOk
+reqEntry 2 16592
+reqEntry 2 16593
+respOk
+respOk
+reqEntry 2 16595
+respOk
+reqEntry 2 16597
+respOk
+reqEntry 2 16599
+respOk
+reqEntry 2 16601
+respOk
+reqEntry 2 16603
+respOk
+respOk
+reqEntry 2 16605
+respOk
+reqEntry 2 16607
+respOk
+reqEntry 2 16609
+respOk
+reqEntry 2 16611
+respOk
+reqEntry 2 16613
+respOk
+reqEntry 2 16615
+respOk
+reqEntry 2 16617
+respOk
+reqEntry 2 16619
+respOk
+reqEntry 2 16621
+respOk
+reqEntry 2 16623
+respOk
+reqEntry 2 16625
+respOk
+reqEntry 2 16627
+respOk
+reqEntry 2 16629
+respOk
+reqEntry 2 16631
+respOk
+reqEntry 2 16633
+respOk
+reqEntry 2 16635
+respOk
+reqEntry 2 16637
+respOk
+reqEntry 2 16639
+respOk
+reqEntry 2 16641
+respOk
+reqEntry 2 16643
+respOk
+reqEntry 2 16645
+respOk
+reqEntry 2 16647
+respOk
+reqEntry 2 16649
+respOk
+reqEntry 2 16651
+respOk
+reqEntry 2 16653
+respOk
+reqEntry 2 16655
+respOk
+respOk
+reqEntry 2 16657
+respOk
+reqEntry 2 16659
+respOk
+reqEntry 2 16661
+respOk
+reqEntry 2 16663
+respOk
+reqEntry 2 16665
+respOk
+reqEntry 2 16667
+reqEntry 2 16668
+respOk
+respOk
+reqEntry 2 16670
+respOk
+reqEntry 2 16672
+respOk
+reqEntry 2 16674
+respOk
+reqEntry 2 16676
+respOk
+reqEntry 2 16678
+respOk
+reqEntry 2 16680
+respOk
+reqEntry 2 16682
+respOk
+reqEntry 2 16684
+respOk
+reqEntry 2 16686
+respOk
+reqEntry 2 16688
+respOk
+reqEntry 2 16690
+reqEntry 2 16691
+respOk
+respOk
+reqEntry 2 16693
+respOk
+reqEntry 2 16695
+respOk
+reqEntry 2 16697
+respOk
+respOk
+reqEntry 2 16699
+respOk
+reqEntry 2 16700
+respOk
+reqEntry 2 16702
+respOk
+reqEntry 2 16704
+respOk
+reqEntry 2 16706
+respOk
+reqEntry 2 16708
+respOk
+reqEntry 2 16710
+respOk
+reqEntry 2 16712
+respOk
+reqEntry 2 16714
+respOk
+reqEntry 2 16716
+respOk
+reqEntry 2 16718
+reqEntry 2 16719
+respOk
+respOk
+reqEntry 2 16721
+respOk
+reqEntry 2 16723
+respOk
+reqEntry 2 16725
+respOk
+reqEntry 2 16727
+respOk
+reqEntry 2 16729
+respOk
+reqEntry 2 16731
+respOk
+reqEntry 2 16733
+respOk
+reqEntry 2 16735
+respOk
+reqEntry 2 16737
+respOk
+reqEntry 2 16739
+reqEntry 2 16740
+respOk
+reqEntry 2 16741
+respOk
+respOk
+reqEntry 2 16743
+respOk
+reqEntry 2 16745
+respOk
+respOk
+reqEntry 2 16747
+respOk
+reqEntry 2 16749
+reqEntry 2 16750
+respOk
+respOk
+reqEntry 2 16752
+respOk
+reqEntry 2 16754
+respOk
+reqEntry 2 16756
+respOk
+reqEntry 2 16758
+respOk
+reqEntry 2 16760
+respOk
+reqEntry 2 16762
+respOk
+reqEntry 2 16764
+respOk
+reqEntry 2 16766
+respOk
+reqEntry 2 16768
+respOk
+reqEntry 2 16770
+respOk
+reqEntry 2 16772
+respOk
+respOk
+reqEntry 2 16774
+respOk
+reqEntry 2 16776
+respOk
+reqEntry 2 16778
+respOk
+reqEntry 2 16780
+respOk
+reqEntry 2 16782
+respOk
+reqEntry 2 16784
+respOk
+reqEntry 2 16786
+respOk
+reqEntry 2 16788
+respOk
+reqEntry 2 16790
+respOk
+respOk
+reqEntry 2 16792
+respOk
+reqEntry 2 16794
+respOk
+respOk
+reqEntry 2 16796
+respOk
+reqEntry 2 16798
+respOk
+reqEntry 2 16800
+respOk
+reqEntry 2 16802
+respOk
+respOk
+reqEntry 2 16804
+respOk
+reqEntry 2 16806
+reqEntry 2 16807
+respOk
+respOk
+reqEntry 2 16809
+respOk
+reqEntry 2 16811
+respOk
+reqEntry 2 16813
+respOk
+reqEntry 2 16815
+respOk
+reqEntry 2 16817
+respOk
+respOk
+reqEntry 2 16819
+respOk
+reqEntry 2 16821
+respOk
+reqEntry 2 16823
+respOk
+reqEntry 2 16825
+respOk
+reqEntry 2 16827
+respOk
+reqEntry 2 16829
+respOk
+reqEntry 2 16831
+respOk
+respOk
+reqEntry 2 16833
+respOk
+reqEntry 2 16835
+respOk
+reqEntry 2 16837
+respOk
+reqEntry 2 16839
+respOk
+reqEntry 2 16841
+respOk
+reqEntry 2 16843
+respOk
+reqEntry 2 16845
+respOk
+reqEntry 2 16847
+respOk
+reqEntry 2 16849
+respOk
+reqEntry 2 16851
+respOk
+reqEntry 2 16853
+respOk
+reqEntry 2 16854
+respOk
+respOk
+reqEntry 2 16856
+respOk
+reqEntry 2 16858
+respOk
+reqEntry 2 16860
+respOk
+reqEntry 2 16862
+respOk
+reqEntry 2 16864
+respOk
+reqEntry 2 16866
+respOk
+respOk
+reqEntry 2 16868
+respOk
+reqEntry 2 16870
+respOk
+reqEntry 2 16872
+respOk
+respOk
+reqEntry 2 16874
+respOk
+reqEntry 2 16876
+respOk
+reqEntry 2 16878
+respOk
+reqEntry 2 16880
+respOk
+reqEntry 2 16882
+respOk
+reqEntry 2 16884
+reqEntry 2 16885
+respOk
+respOk
+reqEntry 2 16887
+respOk
+reqEntry 2 16889
+respOk
+reqEntry 2 16891
+respOk
+reqEntry 2 16893
+respOk
+reqEntry 2 16895
+respOk
+reqEntry 2 16897
+respOk
+reqEntry 2 16899
+respOk
+reqEntry 2 16901
+respOk
+reqEntry 2 16903
+respOk
+reqEntry 2 16905
+respOk
+reqEntry 2 16907
+respOk
+reqEntry 2 16909
+respOk
+reqEntry 2 16911
+respOk
+reqEntry 2 16913
+respOk
+reqEntry 2 16915
+respOk
+reqEntry 2 16917
+respOk
+reqEntry 2 16919
+respOk
+reqEntry 2 16921
+respOk
+reqEntry 2 16923
+reqEntry 2 16924
+respOk
+respOk
+reqEntry 2 16926
+respOk
+reqEntry 2 16928
+respOk
+reqEntry 2 16930
+respOk
+reqEntry 2 16932
+respOk
+reqEntry 2 16934
+respOk
+reqEntry 2 16936
+respOk
+reqEntry 2 16938
+respOk
+reqEntry 2 16940
+respOk
+reqEntry 2 16942
+respOk
+reqEntry 2 16944
+respOk
+reqEntry 2 16946
+respOk
+reqEntry 2 16948
+respOk
+reqEntry 2 16950
+respOk
+reqEntry 2 16952
+respOk
+reqEntry 2 16954
+respOk
+reqEntry 2 16956
+respOk
+reqEntry 2 16958
+respOk
+reqEntry 2 16960
+respOk
+reqEntry 2 16962
+respOk
+reqEntry 2 16964
+respOk
+reqEntry 2 16966
+respOk
+reqEntry 2 16968
+respOk
+respOk
+reqEntry 2 16970
+respOk
+reqEntry 2 16972
+respOk
+reqEntry 2 16974
+respOk
+reqEntry 2 16976
+respOk
+reqEntry 2 16978
+respOk
+reqEntry 2 16980
+respOk
+reqEntry 2 16982
+respOk
+reqEntry 2 16984
+respOk
+reqEntry 2 16986
+respOk
+reqEntry 2 16988
+respOk
+reqEntry 2 16990
+respOk
+reqEntry 2 16992
+respOk
+reqEntry 2 16994
+respOk
+reqEntry 2 16996
+respOk
+reqEntry 2 16998
+respOk
+reqEntry 2 17000
+respOk
+reqEntry 2 17002
+respOk
+reqEntry 2 17004
+respOk
+reqEntry 2 17006
+respOk
+reqEntry 2 17008
+respOk
+reqEntry 2 17010
+respOk
+reqEntry 2 17012
+respOk
+reqEntry 2 17014
+respOk
+reqEntry 2 17016
+respOk
+reqEntry 2 17018
+respOk
+reqEntry 2 17020
+respOk
+respOk
+reqEntry 2 17022
+respOk
+reqEntry 2 17024
+respOk
+reqEntry 2 17025
+respOk
+reqEntry 2 17027
+respOk
+reqEntry 2 17029
+respOk
+reqEntry 2 17031
+respOk
+reqEntry 2 17033
+respOk
+reqEntry 2 17035
+respOk
+reqEntry 2 17037
+respOk
+reqEntry 2 17039
+respOk
+reqEntry 2 17041
+respOk
+reqEntry 2 17043
+respOk
+reqEntry 2 17045
+respOk
+reqEntry 2 17047
+respOk
+reqEntry 2 17049
+respOk
+reqEntry 2 17051
+respOk
+reqEntry 2 17053
+respOk
+reqEntry 2 17055
+respOk
+reqEntry 2 17057
+respOk
+reqEntry 2 17059
+respOk
+reqEntry 2 17061
+respOk
+reqEntry 2 17063
+respOk
+reqEntry 2 17065
+respOk
+reqEntry 2 17067
+respOk
+reqEntry 2 17069
+respOk
+reqEntry 2 17071
+respOk
+reqEntry 2 17073
+respOk
+reqEntry 2 17075
+respOk
+reqEntry 2 17077
+respOk
+reqEntry 2 17079
+respOk
+reqEntry 2 17081
+respOk
+reqEntry 2 17083
+respOk
+reqEntry 2 17085
+respOk
+reqEntry 2 17087
+0 take snapshot 30
+p0 -> p1: 0 take snapshot 30
+p2 -> p1: 
+INICIO SNAPSHOT 31
+LocalState: p1
+st: 1
+waiting: [false false false]
+lcl: 17987
+p2 -> p1: 
+p0 -> p1: 0 take snapshot 31
+p0 -> p1: 0 take snapshot 31

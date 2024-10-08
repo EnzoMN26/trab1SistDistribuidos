@@ -1,0 +1,7 @@
+INICIO SNAPSHOT 1
+LocalState: p0
+st: 0
+waiting: [false false false]
+lcl: 0
+p1 -> p0: 
+p2 -> p0: 
