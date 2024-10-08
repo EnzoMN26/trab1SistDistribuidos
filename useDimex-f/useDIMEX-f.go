@@ -64,9 +64,8 @@ func main() {
 
 	// espera para facilitar inicializacao de todos processos (a mao)
 	time.Sleep(3 * time.Second)
-
 	for {
-		if id == 0 {
+		if false{
 			fmt.Println("[ APP id: ", id, " PEDE SNAPSHOT ]")
 			dmx.Req <- DIMEX.SNAPSHOT
 			time.Sleep(100 * time.Millisecond)
