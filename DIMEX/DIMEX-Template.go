@@ -221,8 +221,8 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 		module.sendToLink(module.addresses[othId], "respOk", " ")
 	} else {
 		module.waiting[othId] = true;
-		module.lcl = max(module.lcl, othReqTs) //EXLUSAO MUTUA
 	}
+	module.lcl = max(module.lcl, othReqTs) //EXLUSAO MUTUA
 }
 
 func(module *DIMEX_Module) createSnapshot(){
