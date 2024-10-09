@@ -51,7 +51,7 @@ type snapshotChannel struct{
 	state      State
 	waiting    []bool
 	lcl        int
-	channels   []string
+	// channels   []string
 }
 
 type dmxResp struct { // mensagem do módulo DIMEX infrmando que pode acessar - pode ser somente um sinal (vazio)
@@ -97,20 +97,13 @@ func NewDIMEX(_addresses []string, _id int, _dbg bool) *DIMEX_Module {
 		lcl:       0,
 		reqTs:     0,
 		dbg:       _dbg,
-		snapshotCount: 1,
+		snapshotCount: 0,
 		currentSnapshot:  0,
 		channels: make([]bool, len(_addresses)),
 		messageChannel: make(map[int]string),
 		snapshotChannel: snapshotChannel{},
 		Pp2plink: p2p}
 
-	for index := range dmx.channels {
-		dmx.channels[index] = false
-	}
-
-	for i := 0; i < len(dmx.waiting); i++ {
-		dmx.waiting[i] = false
-	}
 	dmx.Start()
 	dmx.outDbg("Init DIMEX!")
 	return dmx
@@ -139,7 +132,6 @@ func (module *DIMEX_Module) Start() {
 				}
 
 			case msgOutro := <-module.Pp2plink.Ind: // vindo de outro processo
-				//fmt.Printf("dimex recebe da rede: ", msgOutro)
 				module.saveMessageInChannel(msgOutro)
 				if strings.Contains(msgOutro.Message, "respOk") {
 					module.outDbg("         <<<---- responde! " + msgOutro.Message)
@@ -232,13 +224,9 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 
 func(module *DIMEX_Module) createSnapshot(){
 	//somente id 0
-	for index := range module.addresses{
-		if index != 0{
-			module.sendToLink(module.addresses[index], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(module.snapshotCount), " ")
-		}
-	}
-	module.channels[module.id] = true
 	module.snapshotCount = module.snapshotCount+1;
+	module.sendToLink(module.addresses[module.id], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(module.snapshotCount), " ")
+	module.channels[module.id] = true
 }
 
 func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message){
@@ -253,13 +241,14 @@ func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message)
 			}
 			count++
 		}
-		channelIstrue := (count == len(module.channels));
+		channelIstrue := (count >= len(module.channels));
 		if channelIstrue{
 			module.channels = make([]bool, len(module.addresses))
 			module.currentSnapshot = 0
 			module.writeOnFile()
 		}
 	} else if module.currentSnapshot == 0 {
+		module.channels = make([]bool, len(module.addresses))
 		module.currentSnapshot = idSnapshot
 		module.channels[module.id] = true
 		module.recordLocalState(idFrom, idSnapshot)
@@ -339,6 +328,7 @@ func(module *DIMEX_Module) writeOnFile(){
 		if i != 0{
 			messageChannelJson+= ", "
 		}
+		messageChannelJson+="\"p"+strconv.Itoa(i)+"\": "
 		messageChannelJson += module.messageChannel[i];
 	}
 

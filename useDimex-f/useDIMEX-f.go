@@ -49,7 +49,6 @@ func main() {
 	id, _ := strconv.Atoi(os.Args[1])
 	addresses := os.Args[2:]
 	// fmt.Print("id: ", id, "   ")
-	// fmt.Println(addresses)
 
 	var dmx *DIMEX.DIMEX_Module = DIMEX.NewDIMEX(addresses, id, true)
 	// fmt.Println(dmx)
@@ -68,7 +67,7 @@ func main() {
 		if id == 0{
 			fmt.Println("[ APP id: ", id, " PEDE SNAPSHOT ]")
 			dmx.Req <- DIMEX.SNAPSHOT
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(1 * time.Second)
 		} else {	
 			// SOLICITA ACESSO AO DIMEX
 			fmt.Println("[ APP id: ", id, " PEDE   MX ]")
