@@ -127,8 +127,10 @@ func (module *DIMEX_Module) Start() {
 					module.outDbg("app libera mx")
 					module.handleUponReqExit() // ENTRADA DO ALGORITMO
 				} else if dmxR == SNAPSHOT {
-					module.outDbg("app solicita snapshot")
-					module.createSnapshot()
+					if module.snapshotCount == 0 {
+						module.outDbg("app solicita snapshot")
+						module.createSnapshot()
+					}
 				}
 
 			case msgOutro := <-module.Pp2plink.Ind: // vindo de outro processo
