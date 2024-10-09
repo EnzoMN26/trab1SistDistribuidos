@@ -180,7 +180,9 @@ func (module *DIMEX_Module) handleUponReqExit() {
 		}
 	}
 	module.st = noMX
-	module.waiting = make([]bool, len(module.addresses))
+	for i:=0;i<len(module.waiting);i++{
+		module.waiting[i] = false;
+	}
 }
 
 // ------------------------------------------------------------------------------------
