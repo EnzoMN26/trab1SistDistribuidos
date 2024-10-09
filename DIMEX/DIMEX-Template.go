@@ -312,11 +312,11 @@ func(module *DIMEX_Module) writeOnFile(){
 	// module.channels[idFrom] = true;
 	messageChannelJson := "{\"snapshotId\": "+strconv.Itoa(module.snapshotChannel.idSnapshot)+", \"moduleId\": " +strconv.Itoa(module.snapshotChannel.moduleId)
 	if(module.snapshotChannel.state == noMX){
-		messageChannelJson += ", \"state\": \"noMX\", "
+		messageChannelJson += ", \"state\": 0, "
 	}else if(module.snapshotChannel.state == wantMX){
-		messageChannelJson += ", \"state\": \"wantMX\", "
+		messageChannelJson += ", \"state\": 1, "
 	}else if(module.snapshotChannel.state == inMX){
-		messageChannelJson += ", \"state\": \"inMX\", "
+		messageChannelJson += ", \"state\": 2, "
 	}
 	messageChannelJson+= "\"waiting\": ["
 	for i := 0; i < len(module.snapshotChannel.waiting); i++ {
@@ -332,8 +332,8 @@ func(module *DIMEX_Module) writeOnFile(){
 		if i != 0{
 			messageChannelJson+= ", "
 		}
-		messageChannelJson+="\"p"+strconv.Itoa(i)+"\": "
-		messageChannelJson += module.messageChannel[i];
+		messageChannelJson+="\"p"+strconv.Itoa(i)+": "
+		messageChannelJson += module.messageChannel[i]+"\"";
 	}
 
 	messageChannelJson += "]}"
