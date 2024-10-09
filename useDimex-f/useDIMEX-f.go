@@ -67,7 +67,7 @@ func main() {
 		if id == 0{
 			fmt.Println("[ APP id: ", id, " PEDE SNAPSHOT ]")
 			dmx.Req <- DIMEX.SNAPSHOT
-			time.Sleep(1 * time.Second)
+			time.Sleep(500 * time.Millisecond)
 		} else {	
 			// SOLICITA ACESSO AO DIMEX
 			fmt.Println("[ APP id: ", id, " PEDE   MX ]")

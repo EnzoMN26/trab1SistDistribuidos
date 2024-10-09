@@ -72,7 +72,7 @@ type DIMEX_Module struct {
 	snapshotCount int
 	currentSnapshot int
 	channels  []bool
-	messageChannel map[int]string
+	messageChannel []string
 	snapshotChannel snapshotChannel
 
 	Pp2plink *PP2PLink.PP2PLink // acesso aa comunicacao enviar por PP2PLinq.Req  e receber por PP2PLinq.Ind
@@ -100,10 +100,13 @@ func NewDIMEX(_addresses []string, _id int, _dbg bool) *DIMEX_Module {
 		snapshotCount: 0,
 		currentSnapshot:  0,
 		channels: make([]bool, len(_addresses)),
-		messageChannel: make(map[int]string),
+		messageChannel: make([]string, len(_addresses)),
 		snapshotChannel: snapshotChannel{},
 		Pp2plink: p2p}
 
+	for i:=0;i<len(_addresses);i++{
+		dmx.messageChannel[i] = "";
+	}
 	dmx.Start()
 	dmx.outDbg("Init DIMEX!")
 	return dmx
@@ -127,7 +130,7 @@ func (module *DIMEX_Module) Start() {
 					module.outDbg("app libera mx")
 					module.handleUponReqExit() // ENTRADA DO ALGORITMO
 				} else if dmxR == SNAPSHOT {
-					if module.snapshotCount == 0 {
+					if module.currentSnapshot == 0 {
 						module.outDbg("app solicita snapshot")
 						module.createSnapshot()
 					}
@@ -225,7 +228,6 @@ func (module *DIMEX_Module) handleUponDeliverReqEntry(msgOutro PP2PLink.PP2PLink
 }
 
 func(module *DIMEX_Module) createSnapshot(){
-	//somente id 0
 	module.snapshotCount = module.snapshotCount+1;
 	module.sendToLink(module.addresses[module.id], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(module.snapshotCount), " ")
 	module.channels[module.id] = true
@@ -364,14 +366,15 @@ func (module *DIMEX_Module) recordLocalState(idFrom int, idSnapshot int) {
 func (module *DIMEX_Module) saveMessageInChannel(msgOutro PP2PLink.PP2PLink_Ind_Message) {
 	reqIdReqTs := strings.Split(msgOutro.Message, " ")
 	idFrom, _ := strconv.Atoi(reqIdReqTs[0]) 
-	value, exists := module.messageChannel[idFrom]
-	if exists && !module.channels[idFrom]{
-		module.messageChannel[idFrom] = value + ", " + msgOutro.Message
-	} else if !module.channels[idFrom]{
+	if module.messageChannel[idFrom] != "" && !module.channels[idFrom] && msgOutro.Message != "" && !strings.Contains(msgOutro.Message, "take snapshot"){
+		module.messageChannel[idFrom] += ", " + msgOutro.Message
+	} else if module.messageChannel[idFrom] == "" && !module.channels[idFrom] && msgOutro.Message != "" && !strings.Contains(msgOutro.Message, "take snapshot"){
 		module.messageChannel[idFrom] = msgOutro.Message
 	}
 }
 
 func (module *DIMEX_Module) deleteMessagesInChannel(){
-	module.messageChannel = make(map[int]string)
+	for i:=0;i<len(module.addresses);i++{
+		module.messageChannel[i] = "";
+	}
 }
