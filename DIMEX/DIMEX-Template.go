@@ -45,6 +45,15 @@ const (
 	SNAPSHOT
 )
 
+type snapshotChannel struct{
+	idSnapshot int
+	moduleId   int
+	state      State
+	waiting    []bool
+	lcl        int
+	channels   []string
+}
+
 type dmxResp struct { // mensagem do módulo DIMEX infrmando que pode acessar - pode ser somente um sinal (vazio)
 	// mensagem para aplicacao indicando que pode prosseguir
 }
@@ -64,7 +73,7 @@ type DIMEX_Module struct {
 	currentSnapshot int
 	channels  []bool
 	messageChannel map[int]string
-	idByIp 		map[string]int
+	snapshotChannel snapshotChannel
 
 	Pp2plink *PP2PLink.PP2PLink // acesso aa comunicacao enviar por PP2PLinq.Req  e receber por PP2PLinq.Ind
 }
@@ -92,15 +101,11 @@ func NewDIMEX(_addresses []string, _id int, _dbg bool) *DIMEX_Module {
 		currentSnapshot:  0,
 		channels: make([]bool, len(_addresses)),
 		messageChannel: make(map[int]string),
-		idByIp: make(map[string]int),
+		snapshotChannel: snapshotChannel{},
 		Pp2plink: p2p}
 
 	for index := range dmx.channels {
 		dmx.channels[index] = false
-	}
-
-	for index := range _addresses {
-		dmx.idByIp[_addresses[index]] = index
 	}
 
 	for i := 0; i < len(dmx.waiting); i++ {
@@ -164,7 +169,7 @@ func (module *DIMEX_Module) handleUponReqEntry() {
 	module.reqTs = module.lcl
 	module.nbrResps = 0
 	for index, endereco := range module.addresses {
-		if(index != module.id){
+		if(index != module.id && index != 0){
 			module.sendToLink(endereco, strconv.Itoa(module.id) + " reqEntry " + strconv.Itoa(module.reqTs), " ")
 		}
 	}
@@ -189,7 +194,7 @@ func (module *DIMEX_Module) handleUponReqExit() {
 
 func (module *DIMEX_Module) handleUponDeliverRespOk(){
 	module.nbrResps = module.nbrResps + 1
-	if(module.nbrResps == len(module.addresses) - 1){
+	if(module.nbrResps == len(module.addresses) - 2){
 		module.Ind <- dmxResp{}
 		module.st = inMX
 	}
@@ -241,7 +246,6 @@ func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message)
 	idFrom,_ := strconv.Atoi(strings.Split(msgOutro.Message, " ")[0])
 	if idSnapshot == module.currentSnapshot && module.currentSnapshot != 0 {
 		module.channels[idFrom] = true
-		module.recordChannel(idFrom)
 		count := 0
 		for index := range module.channels{
 			if !module.channels[index] {
@@ -253,6 +257,7 @@ func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message)
 		if channelIstrue{
 			module.channels = make([]bool, len(module.addresses))
 			module.currentSnapshot = 0
+			module.writeOnFile()
 		}
 	} else if module.currentSnapshot == 0 {
 		module.currentSnapshot = idSnapshot
@@ -267,10 +272,6 @@ func(module *DIMEX_Module) replySnapshot(msgOutro PP2PLink.PP2PLink_Ind_Message)
 		module.sendToLink(module.addresses[idFrom], strconv.Itoa(module.id) +" take snapshot "+ strconv.Itoa(idSnapshot), " ")
 		module.channels[module.id] = true
 	}
-	//estado = st,waiting,lcl,reqTs, mensagens
-	//grava estado local
-	//estado do canal entre o receptor e o remetente é setado vazio
-	//envia mensagem "take snapshot" em OUT
 }
 
 // ------------------------------------------------------------------------------------
@@ -307,58 +308,74 @@ func max(a, b int) int {
 	return b
 }
 
-func (module *DIMEX_Module) recordChannel(idFrom int) {
+func(module *DIMEX_Module) writeOnFile(){
 	fileName := "./p"+ strconv.Itoa(module.id) +".txt"
 	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		return
 	}
-	messageChannelStr := fmt.Sprintf("p%d -> p%d: ", idFrom, module.id)
-	_, err = file.WriteString(messageChannelStr)
-	if err != nil {
-        fmt.Println("Erro ao gravar no arquivo:", err)
-    }
-	messageChannelStr = fmt.Sprintf("%s\n", module.messageChannel[idFrom]) 
-	_, err = file.WriteString(messageChannelStr)
-    if err != nil {
-        fmt.Println("Erro ao gravar no arquivo:", err)
-    }
-	defer file.Close() // Ensure the file is closed at the end of the function
+	// module.snapshotChannel.lcl = module.lcl;
+	// module.channels[idFrom] = true;
+	messageChannelJson := "{\"snapshotId\": "+strconv.Itoa(module.snapshotChannel.idSnapshot)+", \"moduleId\": " +strconv.Itoa(module.snapshotChannel.moduleId)
+	if(module.snapshotChannel.state == noMX){
+		messageChannelJson += ", \"state\": \"noMX\", "
+	}else if(module.snapshotChannel.state == wantMX){
+		messageChannelJson += ", \"state\": \"wantMX\", "
+	}else if(module.snapshotChannel.state == inMX){
+		messageChannelJson += ", \"state\": \"inMX\", "
+	}
+	messageChannelJson+= "\"waiting\": ["
+	for i := 0; i < len(module.snapshotChannel.waiting); i++ {
+		if i != 0{
+			messageChannelJson+= ", "
+		}
+		messageChannelJson+= strconv.FormatBool(module.snapshotChannel.waiting[i])
+	}
+	messageChannelJson += "], \"lcl\": " + strconv.Itoa(module.snapshotChannel.lcl)
+
+	messageChannelJson += ", \"messages\": ["
+	for i := 0; i < len(module.messageChannel); i++ {
+		if i != 0{
+			messageChannelJson+= ", "
+		}
+		messageChannelJson += module.messageChannel[i];
+	}
+
+	messageChannelJson += "]}"
+
+	// jsonData, err := json.Marshal(module.snapshotChannel)
+	// if err != nil {
+	// 	fmt.Println("Erro ao codificar o JSON:", err)
+	// }
+	if _, err := file.WriteString(messageChannelJson+"\n"); 
+	err != nil {
+		fmt.Println("Erro ao gravar no arquivo:", err)
+		return
+	}
+	defer file.Close()
 	module.deleteMessagesInChannel()
 }
 
 func (module *DIMEX_Module) recordLocalState(idFrom int, idSnapshot int) {
-	fileName := "./p"+ strconv.Itoa(module.id) +".txt"
-	file, err := os.OpenFile(fileName, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
-	if err != nil {
-		fmt.Println("Error opening file:", err)
-		return
-	}
-	localState := fmt.Sprintf("INICIO SNAPSHOT %d\n", idSnapshot)
-	localState += fmt.Sprintf("LocalState: p%d\n", module.id)
-    localState += fmt.Sprintf("st: %v\n", module.st)
-    localState += fmt.Sprintf("waiting: %v\n", module.waiting)
-    localState += fmt.Sprintf("lcl: %v\n", module.lcl)
-    localState += fmt.Sprintf("p%d -> p%d: ", idFrom, module.id)
-	localState += fmt.Sprintf("%s\n", module.messageChannel[idFrom]) 
+	module.snapshotChannel.idSnapshot = idSnapshot;
+	module.snapshotChannel.moduleId = module.id;
+	module.snapshotChannel.state = module.st;
+	module.snapshotChannel.waiting = module.waiting;
+	module.snapshotChannel.lcl = module.lcl;
+	module.channels[idFrom] = true;
 
-	_, err = file.WriteString(localState)
-    if err != nil {
-        fmt.Println("Erro ao gravar no arquivo:", err)
-    }
-	defer file.Close() // Ensure the file is closed at the end of the function
-	fmt.Println("Estado local gravado com sucesso no arquivo:", fileName)
 	module.deleteMessagesInChannel()
 }
 
 func (module *DIMEX_Module) saveMessageInChannel(msgOutro PP2PLink.PP2PLink_Ind_Message) {
-	idFrom := module.idByIp[msgOutro.From]
+	reqIdReqTs := strings.Split(msgOutro.Message, " ")
+	idFrom, _ := strconv.Atoi(reqIdReqTs[0]) 
 	value, exists := module.messageChannel[idFrom]
-	if exists{
-		module.messageChannel[idFrom] = value + "\n" + msgOutro.Message
-	} else{
+	if exists && !module.channels[idFrom]{
+		module.messageChannel[idFrom] = value + ", " + msgOutro.Message
+	} else if !module.channels[idFrom]{
 		module.messageChannel[idFrom] = msgOutro.Message
 	}
 }
