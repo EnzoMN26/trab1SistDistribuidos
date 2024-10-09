@@ -1,0 +1,949 @@
+➜  useDimex-f git:(branch-final) ✗ python3 verificador.py
+
+Checando snapshot ID: 1
+Snapshot Correto!
+
+Checando snapshot ID: 2
+Snapshot Correto!
+
+Checando snapshot ID: 3
+Snapshot Correto!
+
+Checando snapshot ID: 4
+Snapshot Correto!
+
+Checando snapshot ID: 5
+Snapshot Correto!
+
+Checando snapshot ID: 6
+Snapshot Correto!
+
+Checando snapshot ID: 7
+Snapshot Correto!
+
+Checando snapshot ID: 8
+Snapshot Correto!
+
+Checando snapshot ID: 9
+Snapshot Correto!
+
+Checando snapshot ID: 10
+Snapshot Correto!
+
+Checando snapshot ID: 11
+Snapshot Correto!
+
+Checando snapshot ID: 12
+Snapshot Correto!
+
+Checando snapshot ID: 13
+Snapshot Correto!
+
+Checando snapshot ID: 14
+Snapshot Correto!
+
+Checando snapshot ID: 15
+Snapshot Correto!
+
+Checando snapshot ID: 16
+Snapshot Correto!
+
+Checando snapshot ID: 17
+Snapshot Correto!
+
+Checando snapshot ID: 18
+Snapshot Correto!
+
+Checando snapshot ID: 19
+Snapshot Correto!
+
+Checando snapshot ID: 20
+Snapshot Correto!
+
+Checando snapshot ID: 21
+Snapshot Correto!
+
+Checando snapshot ID: 22
+Snapshot Correto!
+
+Checando snapshot ID: 23
+Snapshot Correto!
+
+Checando snapshot ID: 24
+Snapshot Correto!
+
+Checando snapshot ID: 25
+Snapshot Correto!
+
+Checando snapshot ID: 26
+Snapshot Correto!
+
+Checando snapshot ID: 27
+Snapshot Correto!
+
+Checando snapshot ID: 28
+Snapshot Correto!
+
+Checando snapshot ID: 29
+Snapshot Correto!
+
+Checando snapshot ID: 30
+Snapshot Correto!
+
+Checando snapshot ID: 31
+Snapshot Correto!
+
+Checando snapshot ID: 32
+Snapshot Correto!
+
+Checando snapshot ID: 33
+Snapshot Correto!
+
+Checando snapshot ID: 34
+Snapshot Correto!
+
+Checando snapshot ID: 35
+Snapshot Correto!
+
+Checando snapshot ID: 36
+Snapshot Correto!
+
+Checando snapshot ID: 37
+Snapshot Correto!
+
+Checando snapshot ID: 38
+Snapshot Correto!
+
+Checando snapshot ID: 39
+Snapshot Correto!
+
+Checando snapshot ID: 40
+Snapshot Correto!
+
+Checando snapshot ID: 41
+Snapshot Correto!
+
+Checando snapshot ID: 42
+Snapshot Correto!
+
+Checando snapshot ID: 43
+Snapshot Correto!
+
+Checando snapshot ID: 44
+Snapshot Correto!
+
+Checando snapshot ID: 45
+Snapshot Correto!
+
+Checando snapshot ID: 46
+Snapshot Correto!
+
+Checando snapshot ID: 47
+Snapshot Correto!
+
+Checando snapshot ID: 48
+Snapshot Correto!
+
+Checando snapshot ID: 49
+Snapshot Correto!
+
+Checando snapshot ID: 50
+Snapshot Correto!
+
+Checando snapshot ID: 51
+Snapshot Correto!
+
+Checando snapshot ID: 52
+Snapshot Correto!
+
+Checando snapshot ID: 53
+Snapshot Correto!
+
+Checando snapshot ID: 54
+Snapshot Correto!
+
+Checando snapshot ID: 55
+Snapshot Correto!
+
+Checando snapshot ID: 56
+Snapshot Correto!
+
+Checando snapshot ID: 57
+Snapshot Correto!
+
+Checando snapshot ID: 58
+Snapshot Correto!
+
+Checando snapshot ID: 59
+Snapshot Correto!
+
+Checando snapshot ID: 60
+Snapshot Correto!
+
+Checando snapshot ID: 61
+Snapshot Correto!
+
+Checando snapshot ID: 62
+Snapshot Correto!
+
+Checando snapshot ID: 63
+Snapshot Correto!
+
+Checando snapshot ID: 64
+Snapshot Correto!
+
+Checando snapshot ID: 65
+Snapshot Correto!
+
+Checando snapshot ID: 66
+Snapshot Correto!
+
+Checando snapshot ID: 67
+Snapshot Correto!
+
+Checando snapshot ID: 68
+Snapshot Correto!
+
+Checando snapshot ID: 69
+Snapshot Correto!
+
+Checando snapshot ID: 70
+Snapshot Correto!
+
+Checando snapshot ID: 71
+Snapshot Correto!
+
+Checando snapshot ID: 72
+Snapshot Correto!
+
+Checando snapshot ID: 73
+Snapshot Correto!
+
+Checando snapshot ID: 74
+Snapshot Correto!
+
+Checando snapshot ID: 75
+Snapshot Correto!
+
+Checando snapshot ID: 76
+Snapshot Correto!
+
+Checando snapshot ID: 77
+Snapshot Correto!
+
+Checando snapshot ID: 78
+Snapshot Correto!
+
+Checando snapshot ID: 79
+Snapshot Correto!
+
+Checando snapshot ID: 80
+Snapshot Correto!
+
+Checando snapshot ID: 81
+Snapshot Correto!
+
+Checando snapshot ID: 82
+Snapshot Correto!
+
+Checando snapshot ID: 83
+Snapshot Correto!
+
+Checando snapshot ID: 84
+Snapshot Correto!
+
+Checando snapshot ID: 85
+Snapshot Correto!
+
+Checando snapshot ID: 86
+Snapshot Correto!
+
+Checando snapshot ID: 87
+Snapshot Correto!
+
+Checando snapshot ID: 88
+Snapshot Correto!
+
+Checando snapshot ID: 89
+Snapshot Correto!
+
+Checando snapshot ID: 90
+Snapshot Correto!
+
+Checando snapshot ID: 91
+Snapshot Correto!
+
+Checando snapshot ID: 92
+Snapshot Correto!
+
+Checando snapshot ID: 93
+Snapshot Correto!
+
+Checando snapshot ID: 94
+Snapshot Correto!
+
+Checando snapshot ID: 95
+Snapshot Correto!
+
+Checando snapshot ID: 96
+Snapshot Correto!
+
+Checando snapshot ID: 97
+Snapshot Correto!
+
+Checando snapshot ID: 98
+Snapshot Correto!
+
+Checando snapshot ID: 99
+Snapshot Correto!
+
+Checando snapshot ID: 100
+Snapshot Correto!
+
+Checando snapshot ID: 101
+Snapshot Correto!
+
+Checando snapshot ID: 102
+Snapshot Correto!
+
+Checando snapshot ID: 103
+Snapshot Correto!
+
+Checando snapshot ID: 104
+Snapshot Correto!
+
+Checando snapshot ID: 105
+Snapshot Correto!
+
+Checando snapshot ID: 106
+Snapshot Correto!
+
+Checando snapshot ID: 107
+Snapshot Correto!
+
+Checando snapshot ID: 108
+Snapshot Correto!
+
+Checando snapshot ID: 109
+Snapshot Correto!
+
+Checando snapshot ID: 110
+Snapshot Correto!
+
+Checando snapshot ID: 111
+Snapshot Correto!
+
+Checando snapshot ID: 112
+Snapshot Correto!
+
+Checando snapshot ID: 113
+Snapshot Correto!
+
+Checando snapshot ID: 114
+Snapshot Correto!
+
+Checando snapshot ID: 115
+Snapshot Correto!
+
+Checando snapshot ID: 116
+Snapshot Correto!
+
+Checando snapshot ID: 117
+Snapshot Correto!
+
+Checando snapshot ID: 118
+Snapshot Correto!
+
+Checando snapshot ID: 119
+Snapshot Correto!
+
+Checando snapshot ID: 120
+Snapshot Correto!
+
+Checando snapshot ID: 121
+Snapshot Correto!
+
+Checando snapshot ID: 122
+Snapshot Correto!
+
+Checando snapshot ID: 123
+Snapshot Correto!
+
+Checando snapshot ID: 124
+Snapshot Correto!
+
+Checando snapshot ID: 125
+Snapshot Correto!
+
+Checando snapshot ID: 126
+Snapshot Correto!
+
+Checando snapshot ID: 127
+Snapshot Correto!
+
+Checando snapshot ID: 128
+Snapshot Correto!
+
+Checando snapshot ID: 129
+Snapshot Correto!
+
+Checando snapshot ID: 130
+Snapshot Correto!
+
+Checando snapshot ID: 131
+Snapshot Correto!
+
+Checando snapshot ID: 132
+Snapshot Correto!
+
+Checando snapshot ID: 133
+Snapshot Correto!
+
+Checando snapshot ID: 134
+Snapshot Correto!
+
+Checando snapshot ID: 135
+Snapshot Correto!
+
+Checando snapshot ID: 136
+Snapshot Correto!
+
+Checando snapshot ID: 137
+Snapshot Correto!
+
+Checando snapshot ID: 138
+Snapshot Correto!
+
+Checando snapshot ID: 139
+Snapshot Correto!
+
+Checando snapshot ID: 140
+Snapshot Correto!
+
+Checando snapshot ID: 141
+Snapshot Correto!
+
+Checando snapshot ID: 142
+Snapshot Correto!
+
+Checando snapshot ID: 143
+Snapshot Correto!
+
+Checando snapshot ID: 144
+Snapshot Correto!
+
+Checando snapshot ID: 145
+Snapshot Correto!
+
+Checando snapshot ID: 146
+Snapshot Correto!
+
+Checando snapshot ID: 147
+Snapshot Correto!
+
+Checando snapshot ID: 148
+Snapshot Correto!
+
+Checando snapshot ID: 149
+Snapshot Correto!
+
+Checando snapshot ID: 150
+Snapshot Correto!
+
+Checando snapshot ID: 151
+Snapshot Correto!
+
+Checando snapshot ID: 152
+Snapshot Correto!
+
+Checando snapshot ID: 153
+Snapshot Correto!
+
+Checando snapshot ID: 154
+Snapshot Correto!
+
+Checando snapshot ID: 155
+Snapshot Correto!
+
+Checando snapshot ID: 156
+Snapshot Correto!
+
+Checando snapshot ID: 157
+Snapshot Correto!
+
+Checando snapshot ID: 158
+Snapshot Correto!
+
+Checando snapshot ID: 159
+Snapshot Correto!
+
+Checando snapshot ID: 160
+Snapshot Correto!
+
+Checando snapshot ID: 161
+Snapshot Correto!
+
+Checando snapshot ID: 162
+Snapshot Correto!
+
+Checando snapshot ID: 163
+Snapshot Correto!
+
+Checando snapshot ID: 164
+Snapshot Correto!
+
+Checando snapshot ID: 165
+Snapshot Correto!
+
+Checando snapshot ID: 166
+Snapshot Correto!
+
+Checando snapshot ID: 167
+Snapshot Correto!
+
+Checando snapshot ID: 168
+Snapshot Correto!
+
+Checando snapshot ID: 169
+Snapshot Correto!
+
+Checando snapshot ID: 170
+Snapshot Correto!
+
+Checando snapshot ID: 171
+Snapshot Correto!
+
+Checando snapshot ID: 172
+Snapshot Correto!
+
+Checando snapshot ID: 173
+Snapshot Correto!
+
+Checando snapshot ID: 174
+Snapshot Correto!
+
+Checando snapshot ID: 175
+Snapshot Correto!
+
+Checando snapshot ID: 176
+Snapshot Correto!
+
+Checando snapshot ID: 177
+Snapshot Correto!
+
+Checando snapshot ID: 178
+Snapshot Correto!
+
+Checando snapshot ID: 179
+Snapshot Correto!
+
+Checando snapshot ID: 180
+Snapshot Correto!
+
+Checando snapshot ID: 181
+Snapshot Correto!
+
+Checando snapshot ID: 182
+Snapshot Correto!
+
+Checando snapshot ID: 183
+Snapshot Correto!
+
+Checando snapshot ID: 184
+Snapshot Correto!
+
+Checando snapshot ID: 185
+Snapshot Correto!
+
+Checando snapshot ID: 186
+Snapshot Correto!
+
+Checando snapshot ID: 187
+Snapshot Correto!
+
+Checando snapshot ID: 188
+Snapshot Correto!
+
+Checando snapshot ID: 189
+Snapshot Correto!
+
+Checando snapshot ID: 190
+Snapshot Correto!
+
+Checando snapshot ID: 191
+Snapshot Correto!
+
+Checando snapshot ID: 192
+Snapshot Correto!
+
+Checando snapshot ID: 193
+Snapshot Correto!
+
+Checando snapshot ID: 194
+Snapshot Correto!
+
+Checando snapshot ID: 195
+Snapshot Correto!
+
+Checando snapshot ID: 196
+Snapshot Correto!
+
+Checando snapshot ID: 197
+Snapshot Correto!
+
+Checando snapshot ID: 198
+Snapshot Correto!
+
+Checando snapshot ID: 199
+Snapshot Correto!
+
+Checando snapshot ID: 200
+Snapshot Correto!
+
+Checando snapshot ID: 201
+Snapshot Correto!
+
+Checando snapshot ID: 202
+Snapshot Correto!
+
+Checando snapshot ID: 203
+Snapshot Correto!
+
+Checando snapshot ID: 204
+Snapshot Correto!
+
+Checando snapshot ID: 205
+Snapshot Correto!
+
+Checando snapshot ID: 206
+Snapshot Correto!
+
+Checando snapshot ID: 207
+Snapshot Correto!
+
+Checando snapshot ID: 208
+Snapshot Correto!
+
+Checando snapshot ID: 209
+Snapshot Correto!
+
+Checando snapshot ID: 210
+Snapshot Correto!
+
+Checando snapshot ID: 211
+Snapshot Correto!
+
+Checando snapshot ID: 212
+Snapshot Correto!
+
+Checando snapshot ID: 213
+Snapshot Correto!
+
+Checando snapshot ID: 214
+Snapshot Correto!
+
+Checando snapshot ID: 215
+Snapshot Correto!
+
+Checando snapshot ID: 216
+Snapshot Correto!
+
+Checando snapshot ID: 217
+Snapshot Correto!
+
+Checando snapshot ID: 218
+Snapshot Correto!
+
+Checando snapshot ID: 219
+Snapshot Correto!
+
+Checando snapshot ID: 220
+Snapshot Correto!
+
+Checando snapshot ID: 221
+Snapshot Correto!
+
+Checando snapshot ID: 222
+Snapshot Correto!
+
+Checando snapshot ID: 223
+Snapshot Correto!
+
+Checando snapshot ID: 224
+Snapshot Correto!
+
+Checando snapshot ID: 225
+Snapshot Correto!
+
+Checando snapshot ID: 226
+Snapshot Correto!
+
+Checando snapshot ID: 227
+Snapshot Correto!
+
+Checando snapshot ID: 228
+Snapshot Correto!
+
+Checando snapshot ID: 229
+Snapshot Correto!
+
+Checando snapshot ID: 230
+Snapshot Correto!
+
+Checando snapshot ID: 231
+Snapshot Correto!
+
+Checando snapshot ID: 232
+Snapshot Correto!
+
+Checando snapshot ID: 233
+Snapshot Correto!
+
+Checando snapshot ID: 234
+Snapshot Correto!
+
+Checando snapshot ID: 235
+Snapshot Correto!
+
+Checando snapshot ID: 236
+Snapshot Correto!
+
+Checando snapshot ID: 237
+Snapshot Correto!
+
+Checando snapshot ID: 238
+Snapshot Correto!
+
+Checando snapshot ID: 239
+Snapshot Correto!
+
+Checando snapshot ID: 240
+Snapshot Correto!
+
+Checando snapshot ID: 241
+Snapshot Correto!
+
+Checando snapshot ID: 242
+Snapshot Correto!
+
+Checando snapshot ID: 243
+Snapshot Correto!
+
+Checando snapshot ID: 244
+Snapshot Correto!
+
+Checando snapshot ID: 245
+Snapshot Correto!
+
+Checando snapshot ID: 246
+Snapshot Correto!
+
+Checando snapshot ID: 247
+Snapshot Correto!
+
+Checando snapshot ID: 248
+Snapshot Correto!
+
+Checando snapshot ID: 249
+Snapshot Correto!
+
+Checando snapshot ID: 250
+Snapshot Correto!
+
+Checando snapshot ID: 251
+Snapshot Correto!
+
+Checando snapshot ID: 252
+Snapshot Correto!
+
+Checando snapshot ID: 253
+Snapshot Correto!
+
+Checando snapshot ID: 254
+Snapshot Correto!
+
+Checando snapshot ID: 255
+Snapshot Correto!
+
+Checando snapshot ID: 256
+Snapshot Correto!
+
+Checando snapshot ID: 257
+Snapshot Correto!
+
+Checando snapshot ID: 258
+Snapshot Correto!
+
+Checando snapshot ID: 259
+Snapshot Correto!
+
+Checando snapshot ID: 260
+Snapshot Correto!
+
+Checando snapshot ID: 261
+Snapshot Correto!
+
+Checando snapshot ID: 262
+Snapshot Correto!
+
+Checando snapshot ID: 263
+Snapshot Correto!
+
+Checando snapshot ID: 264
+Snapshot Correto!
+
+Checando snapshot ID: 265
+Snapshot Correto!
+
+Checando snapshot ID: 266
+Snapshot Correto!
+
+Checando snapshot ID: 267
+Snapshot Correto!
+
+Checando snapshot ID: 268
+Snapshot Correto!
+
+Checando snapshot ID: 269
+Snapshot Correto!
+
+Checando snapshot ID: 270
+Snapshot Correto!
+
+Checando snapshot ID: 271
+Snapshot Correto!
+
+Checando snapshot ID: 272
+Snapshot Correto!
+
+Checando snapshot ID: 273
+Snapshot Correto!
+
+Checando snapshot ID: 274
+Snapshot Correto!
+
+Checando snapshot ID: 275
+Snapshot Correto!
+
+Checando snapshot ID: 276
+Snapshot Correto!
+
+Checando snapshot ID: 277
+Snapshot Correto!
+
+Checando snapshot ID: 278
+Snapshot Correto!
+
+Checando snapshot ID: 279
+Snapshot Correto!
+
+Checando snapshot ID: 280
+Snapshot Correto!
+
+Checando snapshot ID: 281
+Snapshot Correto!
+
+Checando snapshot ID: 282
+Snapshot Correto!
+
+Checando snapshot ID: 283
+Snapshot Correto!
+
+Checando snapshot ID: 284
+Snapshot Correto!
+
+Checando snapshot ID: 285
+Snapshot Correto!
+
+Checando snapshot ID: 286
+Snapshot Correto!
+
+Checando snapshot ID: 287
+Snapshot Correto!
+
+Checando snapshot ID: 288
+Snapshot Correto!
+
+Checando snapshot ID: 289
+Snapshot Correto!
+
+Checando snapshot ID: 290
+Snapshot Correto!
+
+Checando snapshot ID: 291
+Snapshot Correto!
+
+Checando snapshot ID: 292
+Snapshot Correto!
+
+Checando snapshot ID: 293
+Snapshot Correto!
+
+Checando snapshot ID: 294
+Snapshot Correto!
+
+Checando snapshot ID: 295
+Snapshot Correto!
+
+Checando snapshot ID: 296
+Snapshot Correto!
+
+Checando snapshot ID: 297
+Snapshot Correto!
+
+Checando snapshot ID: 298
+Snapshot Correto!
+
+Checando snapshot ID: 299
+Snapshot Correto!
+
+Checando snapshot ID: 300
+Snapshot Correto!
+
+Checando snapshot ID: 301
+Snapshot Correto!
+
+Checando snapshot ID: 302
+Snapshot Correto!
+
+Checando snapshot ID: 303
+Snapshot Correto!
+
+Checando snapshot ID: 304
+Snapshot Correto!
+
+Checando snapshot ID: 305
+Snapshot Correto!
+
+Checando snapshot ID: 306
+Snapshot Correto!
+
+Checando snapshot ID: 307
+Snapshot Correto!
+
+Checando snapshot ID: 308
+Snapshot Correto!
+
+Checando snapshot ID: 309
+Snapshot Correto!
+
+Checando snapshot ID: 310
+Snapshot Correto!
+
+Checando snapshot ID: 311
+Snapshot Correto!
+
+Checando snapshot ID: 312
+Snapshot Correto!
+
+Checando snapshot ID: 313
+Snapshot Correto!
+
+Checando snapshot ID: 314
+Snapshot Correto!
+
+Checando snapshot ID: 315
+Snapshot Correto!
+
+Checando snapshot ID: 316
+Snapshot Correto!

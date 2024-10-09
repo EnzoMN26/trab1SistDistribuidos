@@ -1,11 +1,71 @@
 import json
 import os
 
-def read_snapshots(num_processes):
-    snapshots = {}
-    for process_id in range(num_processes):
+def verificaInvariante1(dadosPorProcesso):
+    inMXProcesses = []
+    for pdata in dadosPorProcesso.values():
+        if pdata.get('state') == 2:
+            inMXProcesses.append(pdata)
+   
+    if len(inMXProcesses) > 1:
+        print(f"Violação de Invariante 1: {len(inMXProcesses)} processos estão na zona crítica.")
+        return False
+    
+    return True
+
+def verificaInvariante2(dadosPorProcesso):
+    allNoMX = all(pdata['state'] == 0 for pdata in dadosPorProcesso.values())
+    
+    if not allNoMX:
+        return True
+    
+    for pdata in dadosPorProcesso.values():
+        messages = pdata.get('messages')
+        waitingList = pdata.get('waiting')
         
-        filename = f'p{process_id}.txt'
+        if any(waitingList):
+            print(f"Violação de Invariante 2: Processos estão esperando enquanto todos processos estão em noMX.")
+            return False
+        if any(messages):
+            for idx, message in enumerate(messages):
+                if message != f"p{idx}: ":
+                    print(f"Violação de Invariante 2: Mensagens estão em trânsito enquanto todos processos estão em noMX.")
+                    return False
+    return True
+
+def verificaInvariante3(dadosPorProcesso):
+    for pid, pdata in dadosPorProcesso.items():
+        for idx, isWaiting in enumerate(pdata['waiting']):
+            if isWaiting:
+                if(pdata['state'] == 0):
+                    print(f"Violação de Invariante 3: Processo {idx} está esperando o processo {pid}, porém o processo {pid} não está querendo e não está na ZC.")
+                    return False
+    return True
+
+def verificaInvariante(snapshots, numProcesses):
+    for snapshotId, dadosPorProcesso in snapshots.items():
+        print(f"\nChecando snapshot ID: {snapshotId}")
+        
+        # Check if we have data from all processes
+        if len(dadosPorProcesso) < numProcesses:
+            print(f"Dados Incompletos: experava-se {numProcesses} processos, {len(dadosPorProcesso)} recebidos")
+            continue
+        
+        invariante1 = verificaInvariante1(dadosPorProcesso)
+        invariante2 = verificaInvariante2(dadosPorProcesso)
+        invariante3 = verificaInvariante3(dadosPorProcesso)
+        if not all([invariante1, invariante2, invariante3]):
+            print("Invariante violada.")
+        else:
+            print("Snapshot Correto!")
+
+
+def main():
+    numProcesses = 4
+    snapshots = {}
+    for processId in range(numProcesses):
+        
+        filename = f'p{processId}.txt'
         if not os.path.exists(filename):
             print(f"Arquivo de Snapshot {filename} não existe")
             continue
@@ -17,87 +77,17 @@ def read_snapshots(num_processes):
                     continue
                 
                 try:
-                    snapshot_data = json.loads(line)
+                    snapshotData = json.loads(line)
                 except json.JSONDecodeError as e:
                     print(f"Error decoding JSON in file {filename}: {e}")
                     continue
 
-                snapshot_id = snapshot_data.get('snapshotId')
-                if snapshot_id is None:
-                    print(f"No 'IdSnapshot' in data from file {filename}.")
+                snapshotId = snapshotData.get('snapshotId')
+                if snapshotId is None:
+                    print(f"No 'snapshotId' in data from file {filename}.")
                     continue
-                snapshots.setdefault(snapshot_id, {})[process_id] = snapshot_data
-
-    return snapshots
-
-def evaluate_invariant_1(data_per_process):
-    in_mx_processes = []
-    for pdata in data_per_process.values():
-        # print(f"pdata: {pdata}\n")
-        # print(f"pdata.get(state): {pdata.get('state')}")
-        # print(f"pdata.get(state) booleanzin: {pdata.get('state') == 2}")
-        if pdata.get('state') == 2:
-            in_mx_processes.append(pdata)
-   
-    if len(in_mx_processes) > 1:
-        print(f"Violação de Invariante 1: {len(in_mx_processes)} processos estão na zona crítica.")
-        return False
-    return True
-
-def evaluate_invariant_2(data_per_process):
-    all_no_mx = all(pdata['state'] == 0 for pdata in data_per_process.values())
-    
-    if not all_no_mx:
-        return True
-    
-    for pdata in data_per_process.values():
-        messages = pdata.get('messages')
-        waiting_list = pdata.get('waiting')
-        
-        if any(waiting_list):
-            print(f"Violação de Invariante 2: Processos estão esperando enquanto todos processos estão em noMX.")
-            return False
-        if any(messages):
-            for idx, message in enumerate(messages):
-                if message != f"p{idx}: ":
-                    print(f"Violação de Invariante 2: Mensagens estão em trânsito enquanto todos processos estão em noMX.")
-                    return False
-                    
-
-    return True
-
-def evaluate_invariant_3(data_per_process):
-    for pid, pdata in data_per_process.items():
-        for idx, is_waiting in enumerate(pdata['waiting']):
-            if is_waiting:
-                if(pdata['state'] == 0):
-                    print(f"Violação de Invariante 3: Processo {pid} está esperando o processo {idx}, porém o processo {pid} não está querendo a ZC.")
-                    return False
-    return True
-    
-def evaluate_invariant_4(data_per_process):
-    return
-
-def evaluate_invariants(snapshots, num_processes):
-    for snapshot_id, data_per_process in snapshots.items():
-        print(f"\nEvaluating Snapshot ID: {snapshot_id}")
-        
-        # Check if we have data from all processes
-        if len(data_per_process) < num_processes:
-            print(f"  Incomplete data: expected {num_processes} processes, got {len(data_per_process)}")
-            continue
-        
-        invariant1_ok = evaluate_invariant_1(data_per_process)
-        invariant2_ok = evaluate_invariant_2(data_per_process)
-        invariant3_ok = evaluate_invariant_3(data_per_process)
-        if not all([invariant1_ok, invariant2_ok, invariant3_ok]):
-            print("Some invariants violated.")
-
-
-def main():
-    num_processes = 4
-    snapshots = read_snapshots(num_processes)
-    evaluate_invariants(snapshots, num_processes)
+                snapshots.setdefault(snapshotId, {})[processId] = snapshotData
+    verificaInvariante(snapshots, numProcesses)
 
 if __name__ == "__main__":
     main()
